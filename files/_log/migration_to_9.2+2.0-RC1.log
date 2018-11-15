@@ -1,0 +1,11 @@
+2018-02-20 13:11:26 [2@ufaslquticglpip]
+0 seconds for "Installation of plugin FusionInventory" @ 2018-02-20 13:11:26 [2@ufaslquticglpip]
+0 seconds for "Clean data from old installation of the plugin" @ 2018-02-20 13:11:26 [2@ufaslquticglpip]
+0 seconds for "Clean rules from old installation of the plugin" @ 2018-02-20 13:11:32 [2@ufaslquticglpip]
+6 seconds for "Creation tables in database" @ 2018-02-20 13:11:32 [2@ufaslquticglpip]
+0 seconds for "Creation of folders" @ 2018-02-20 13:11:32 [2@ufaslquticglpip]
+0 seconds for "Initialize profiles" @ 2018-02-20 13:11:32 [2@ufaslquticglpip]
+0 seconds for "Initialize configuration" @ 2018-02-20 13:11:32 [2@ufaslquticglpip]
+0 seconds for "Initialize agent TASKS" @ 2018-02-20 13:11:32 [2@ufaslquticglpip]
+0 seconds for "Initialize cron task" @ 2018-02-20 13:11:33 [2@ufaslquticglpip]
+1 second for "Create rules" @ 

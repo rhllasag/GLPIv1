@@ -1,0 +1,208 @@
+2018-04-02 05:09:17 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 5 retries remaining. Message: [GLPI #0000001] New ticket Daño teclado quemado fuente de poder, Error: Could not instantiate mail function.
+2018-04-02 05:09:17 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 4 retries remaining. Message: [GLPI #0000001] New ticket Daño teclado quemado fuente de poder, Error: Could not instantiate mail function.
+2018-04-02 05:09:17 [2@ufaslquticglpip]
+Warning: an email was undeliverable to mavalencia2@espe.edu.ec with 5 retries remaining. Message: [GLPI #0000001] New ticket Daño teclado quemado fuente de poder, Error: Could not instantiate mail function.
+2018-04-02 05:36:51 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 3 retries remaining. Message: [GLPI #0000001] New ticket Daño teclado quemado fuente de poder, Error: Could not instantiate mail function.
+2018-04-03 14:05:59 [@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 2 retries remaining. Message: [GLPI #0000001] New ticket Daño teclado quemado fuente de poder, Error: Could not instantiate mail function.
+2018-04-03 14:05:59 [@ufaslquticglpip]
+Warning: an email was undeliverable to mavalencia2@espe.edu.ec with 4 retries remaining. Message: [GLPI #0000001] New ticket Daño teclado quemado fuente de poder, Error: Could not instantiate mail function.
+2018-04-16 11:07:07 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 1 retries remaining. Message: [GLPI #0000001] New ticket Daño teclado quemado fuente de poder, Error: Could not instantiate mail function.
+2018-04-16 11:07:07 [2@ufaslquticglpip]
+Warning: an email was undeliverable to mavalencia2@espe.edu.ec with 3 retries remaining. Message: [GLPI #0000001] New ticket Daño teclado quemado fuente de poder, Error: Could not instantiate mail function.
+2018-04-16 12:51:03 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 0 retries remaining. Message: [GLPI #0000001] New ticket Daño teclado quemado fuente de poder, Error: Could not instantiate mail function.
+2018-04-16 12:51:03 [2@ufaslquticglpip]
+Fatal error: giving up delivery of email to admsys@localhost: [GLPI #0000001] New ticket Daño teclado quemado fuente de poder
+2018-04-16 12:51:03 [2@ufaslquticglpip]
+Warning: an email was undeliverable to mavalencia2@espe.edu.ec with 2 retries remaining. Message: [GLPI #0000001] New ticket Daño teclado quemado fuente de poder, Error: Could not instantiate mail function.
+2018-04-16 21:19:53 [2@ufaslquticglpip]
+Warning: an email was undeliverable to mavalencia2@espe.edu.ec with 1 retries remaining. Message: [GLPI #0000001] New ticket Daño teclado quemado fuente de poder, Error: Could not instantiate mail function.
+2018-04-17 04:58:47 [2@ufaslquticglpip]
+Warning: an email was undeliverable to mavalencia2@espe.edu.ec with 0 retries remaining. Message: [GLPI #0000001] New ticket Daño teclado quemado fuente de poder, Error: Could not instantiate mail function.
+2018-04-17 04:58:47 [2@ufaslquticglpip]
+Fatal error: giving up delivery of email to mavalencia2@espe.edu.ec: [GLPI #0000001] New ticket Daño teclado quemado fuente de poder
+2018-05-11 08:16:30 [51@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 5 retries remaining. Message: [GLPI #0000001] Update of a ticket Daño teclado quemado fuente de poder, Error: Could not instantiate mail function.
+2018-05-11 08:19:47 [51@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 5 retries remaining. Message: [GLPI #0000001] Update of a ticket Daño teclado quemado fuente de poder, Error: Could not instantiate mail function.
+2018-05-11 08:46:26 [51@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 5 retries remaining. Message: [GLPI #0000002] New ticket Reseteo Clave, Error: Could not instantiate mail function.
+2018-05-15 05:38:55 [@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 4 retries remaining. Message: [GLPI #0000001] Update of a ticket Daño teclado quemado fuente de poder, Error: Could not instantiate mail function.
+2018-05-15 05:38:55 [@ufaslquticglpip]
+Warning: an email was undeliverable to mavalencia2@espe.edu.ec with 5 retries remaining. Message: [GLPI #0000001] Actualización de una incidencia Daño teclado quemado fuente de poder, Error: Could not instantiate mail function.
+2018-05-15 05:38:55 [@ufaslquticglpip]
+Warning: an email was undeliverable to msreascos@espe.edu.ec with 5 retries remaining. Message: [GLPI #0000001] Update of a ticket Daño teclado quemado fuente de poder, Error: Could not instantiate mail function.
+2018-05-15 05:38:55 [@ufaslquticglpip]
+Warning: an email was undeliverable to mavalencia2@espe.edu.ec with 5 retries remaining. Message: [GLPI #0000001] Respuesta de una solicitud de validación Daño teclado quemado fuente de poder, Error: Could not instantiate mail function.
+2018-05-15 05:38:55 [@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 4 retries remaining. Message: [GLPI #0000002] New ticket Reseteo Clave, Error: Could not instantiate mail function.
+2018-05-15 05:38:55 [@ufaslquticglpip]
+Warning: an email was undeliverable to mavalencia2@espe.edu.ec with 5 retries remaining. Message: [GLPI #0000002] Nueva incidencia Reseteo Clave, Error: Could not instantiate mail function.
+2018-05-25 19:44:36 [@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 3 retries remaining. Message: [GLPI #0000001] Update of a ticket Daño teclado quemado fuente de poder, Error: Could not instantiate mail function.
+2018-05-25 19:44:36 [@ufaslquticglpip]
+Warning: an email was undeliverable to mavalencia2@espe.edu.ec with 4 retries remaining. Message: [GLPI #0000001] Actualización de una incidencia Daño teclado quemado fuente de poder, Error: Could not instantiate mail function.
+2018-05-25 19:44:36 [@ufaslquticglpip]
+Warning: an email was undeliverable to msreascos@espe.edu.ec with 4 retries remaining. Message: [GLPI #0000001] Update of a ticket Daño teclado quemado fuente de poder, Error: Could not instantiate mail function.
+2018-05-25 19:44:36 [@ufaslquticglpip]
+Warning: an email was undeliverable to mavalencia2@espe.edu.ec with 4 retries remaining. Message: [GLPI #0000001] Respuesta de una solicitud de validación Daño teclado quemado fuente de poder, Error: Could not instantiate mail function.
+2018-05-25 19:44:36 [@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 3 retries remaining. Message: [GLPI #0000002] New ticket Reseteo Clave, Error: Could not instantiate mail function.
+2018-05-25 19:44:36 [@ufaslquticglpip]
+Warning: an email was undeliverable to mavalencia2@espe.edu.ec with 4 retries remaining. Message: [GLPI #0000002] Nueva incidencia Reseteo Clave, Error: Could not instantiate mail function.
+2018-05-25 19:49:50 [52@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 5 retries remaining. Message: [GLPI #0000003] New ticket no tenngo correo electronico para poder enviar , Error: Could not instantiate mail function.
+2018-05-25 21:30:25 [52@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 5 retries remaining. Message: [GLPI #0000008] New ticket espe, Error: Could not instantiate mail function.
+2018-05-25 21:45:16 [@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 2 retries remaining. Message: [GLPI #0000001] Update of a ticket Daño teclado quemado fuente de poder, Error: Could not instantiate mail function.
+2018-05-25 21:45:16 [@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 2 retries remaining. Message: [GLPI #0000002] New ticket Reseteo Clave, Error: Could not instantiate mail function.
+2018-05-25 21:45:16 [@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 4 retries remaining. Message: [GLPI #0000003] New ticket no tenngo correo electronico para poder enviar , Error: Could not instantiate mail function.
+2018-05-25 21:45:16 [@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 5 retries remaining. Message: [GLPI #0000004] New ticket no tengo acceso al banner , Error: Could not instantiate mail function.
+2018-05-25 21:45:17 [@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 5 retries remaining. Message: [GLPI #0000005] New ticket no sale clave, Error: Could not instantiate mail function.
+2018-05-25 21:45:17 [@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 5 retries remaining. Message: [GLPI #0000006] New ticket Correo-Relay, Error: Could not instantiate mail function.
+2018-05-25 21:45:17 [@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 5 retries remaining. Message: [GLPI #0000007] New ticket no sale mail, Error: Could not instantiate mail function.
+2018-05-25 21:45:17 [@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 4 retries remaining. Message: [GLPI #0000008] New ticket espe, Error: Could not instantiate mail function.
+2018-05-25 21:45:17 [@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 5 retries remaining. Message: [GLPI #0000009] New ticket fsdfsdfsdf, Error: Could not instantiate mail function.
+2018-05-25 22:02:32 [52@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 5 retries remaining. Message: [GLPI #0000010] New ticket otra pueba para enviar mail , Error: Could not instantiate mail function.
+2018-05-25 23:00:09 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 1 retries remaining. Message: [GLPI #0000001] Update of a ticket Daño teclado quemado fuente de poder, Error: Could not instantiate mail function.
+2018-05-25 23:00:09 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 1 retries remaining. Message: [GLPI #0000002] New ticket Reseteo Clave, Error: Could not instantiate mail function.
+2018-05-25 23:00:09 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 3 retries remaining. Message: [GLPI #0000003] New ticket no tenngo correo electronico para poder enviar , Error: Could not instantiate mail function.
+2018-05-25 23:00:09 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 4 retries remaining. Message: [GLPI #0000004] New ticket no tengo acceso al banner , Error: Could not instantiate mail function.
+2018-05-25 23:00:09 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 4 retries remaining. Message: [GLPI #0000005] New ticket no sale clave, Error: Could not instantiate mail function.
+2018-05-25 23:00:09 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 4 retries remaining. Message: [GLPI #0000006] New ticket Correo-Relay, Error: Could not instantiate mail function.
+2018-05-25 23:00:09 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 4 retries remaining. Message: [GLPI #0000007] New ticket no sale mail, Error: Could not instantiate mail function.
+2018-05-25 23:00:10 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 3 retries remaining. Message: [GLPI #0000008] New ticket espe, Error: Could not instantiate mail function.
+2018-05-25 23:00:10 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 4 retries remaining. Message: [GLPI #0000009] New ticket fsdfsdfsdf, Error: Could not instantiate mail function.
+2018-05-25 23:00:10 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 4 retries remaining. Message: [GLPI #0000010] New ticket otra pueba para enviar mail , Error: Could not instantiate mail function.
+2018-05-31 18:02:16 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 0 retries remaining. Message: [GLPI #0000001] Update of a ticket Daño teclado quemado fuente de poder, Error: Could not instantiate mail function.
+2018-05-31 18:02:16 [2@ufaslquticglpip]
+Fatal error: giving up delivery of email to admsys@localhost: [GLPI #0000001] Update of a ticket Daño teclado quemado fuente de poder
+2018-05-31 18:02:16 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 0 retries remaining. Message: [GLPI #0000002] New ticket Reseteo Clave, Error: Could not instantiate mail function.
+2018-05-31 18:02:16 [2@ufaslquticglpip]
+Fatal error: giving up delivery of email to admsys@localhost: [GLPI #0000002] New ticket Reseteo Clave
+2018-05-31 18:02:16 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 2 retries remaining. Message: [GLPI #0000003] New ticket no tenngo correo electronico para poder enviar , Error: Could not instantiate mail function.
+2018-05-31 18:02:16 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 3 retries remaining. Message: [GLPI #0000004] New ticket no tengo acceso al banner , Error: Could not instantiate mail function.
+2018-05-31 18:02:16 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 3 retries remaining. Message: [GLPI #0000005] New ticket no sale clave, Error: Could not instantiate mail function.
+2018-05-31 18:02:16 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 3 retries remaining. Message: [GLPI #0000006] New ticket Correo-Relay, Error: Could not instantiate mail function.
+2018-05-31 18:02:16 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 3 retries remaining. Message: [GLPI #0000007] New ticket no sale mail, Error: Could not instantiate mail function.
+2018-05-31 18:02:16 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 2 retries remaining. Message: [GLPI #0000008] New ticket espe, Error: Could not instantiate mail function.
+2018-05-31 18:02:16 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 3 retries remaining. Message: [GLPI #0000009] New ticket fsdfsdfsdf, Error: Could not instantiate mail function.
+2018-05-31 18:02:17 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 3 retries remaining. Message: [GLPI #0000010] New ticket otra pueba para enviar mail , Error: Could not instantiate mail function.
+2018-06-04 17:51:58 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 1 retries remaining. Message: [GLPI #0000003] New ticket no tenngo correo electronico para poder enviar , Error: SMTP Error: The following recipients failed: admsys@localhost: <admsys@localhost>: Recipient address rejected: User unknown in local recipient table
+
+2018-06-04 17:51:58 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 2 retries remaining. Message: [GLPI #0000004] New ticket no tengo acceso al banner , Error: SMTP Error: The following recipients failed: admsys@localhost: <admsys@localhost>: Recipient address rejected: User unknown in local recipient table
+
+2018-06-04 17:51:58 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 2 retries remaining. Message: [GLPI #0000005] New ticket no sale clave, Error: SMTP Error: The following recipients failed: admsys@localhost: <admsys@localhost>: Recipient address rejected: User unknown in local recipient table
+
+2018-06-04 17:51:58 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 2 retries remaining. Message: [GLPI #0000006] New ticket Correo-Relay, Error: SMTP Error: The following recipients failed: admsys@localhost: <admsys@localhost>: Recipient address rejected: User unknown in local recipient table
+
+2018-06-04 17:51:58 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 2 retries remaining. Message: [GLPI #0000007] New ticket no sale mail, Error: SMTP Error: The following recipients failed: admsys@localhost: <admsys@localhost>: Recipient address rejected: User unknown in local recipient table
+
+2018-06-04 17:51:58 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 1 retries remaining. Message: [GLPI #0000008] New ticket espe, Error: SMTP Error: The following recipients failed: admsys@localhost: <admsys@localhost>: Recipient address rejected: User unknown in local recipient table
+
+2018-06-04 17:51:58 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 2 retries remaining. Message: [GLPI #0000009] New ticket fsdfsdfsdf, Error: SMTP Error: The following recipients failed: admsys@localhost: <admsys@localhost>: Recipient address rejected: User unknown in local recipient table
+
+2018-06-04 17:51:58 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 2 retries remaining. Message: [GLPI #0000010] New ticket otra pueba para enviar mail , Error: SMTP Error: The following recipients failed: admsys@localhost: <admsys@localhost>: Recipient address rejected: User unknown in local recipient table
+
+2018-06-13 08:08:47 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 0 retries remaining. Message: [GLPI #0000003] New ticket no tenngo correo electronico para poder enviar , Error: SMTP Error: The following recipients failed: admsys@localhost: <admsys@localhost>: Recipient address rejected: User unknown in local recipient table
+
+2018-06-13 08:08:47 [2@ufaslquticglpip]
+Fatal error: giving up delivery of email to admsys@localhost: [GLPI #0000003] New ticket no tenngo correo electronico para poder enviar 
+2018-06-13 08:08:47 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 1 retries remaining. Message: [GLPI #0000004] New ticket no tengo acceso al banner , Error: SMTP Error: The following recipients failed: admsys@localhost: <admsys@localhost>: Recipient address rejected: User unknown in local recipient table
+
+2018-06-13 08:08:47 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 1 retries remaining. Message: [GLPI #0000005] New ticket no sale clave, Error: SMTP Error: The following recipients failed: admsys@localhost: <admsys@localhost>: Recipient address rejected: User unknown in local recipient table
+
+2018-06-13 08:08:47 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 1 retries remaining. Message: [GLPI #0000006] New ticket Correo-Relay, Error: SMTP Error: The following recipients failed: admsys@localhost: <admsys@localhost>: Recipient address rejected: User unknown in local recipient table
+
+2018-06-13 08:08:47 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 1 retries remaining. Message: [GLPI #0000007] New ticket no sale mail, Error: SMTP Error: The following recipients failed: admsys@localhost: <admsys@localhost>: Recipient address rejected: User unknown in local recipient table
+
+2018-06-13 08:08:47 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 0 retries remaining. Message: [GLPI #0000008] New ticket espe, Error: SMTP Error: The following recipients failed: admsys@localhost: <admsys@localhost>: Recipient address rejected: User unknown in local recipient table
+
+2018-06-13 08:08:47 [2@ufaslquticglpip]
+Fatal error: giving up delivery of email to admsys@localhost: [GLPI #0000008] New ticket espe
+2018-06-13 08:08:47 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 1 retries remaining. Message: [GLPI #0000009] New ticket fsdfsdfsdf, Error: SMTP Error: The following recipients failed: admsys@localhost: <admsys@localhost>: Recipient address rejected: User unknown in local recipient table
+
+2018-06-13 08:08:47 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 1 retries remaining. Message: [GLPI #0000010] New ticket otra pueba para enviar mail , Error: SMTP Error: The following recipients failed: admsys@localhost: <admsys@localhost>: Recipient address rejected: User unknown in local recipient table
+
+2018-06-14 10:11:56 [2@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 0 retries remaining. Message: [GLPI #0000010] New ticket otra pueba para enviar mail , Error: SMTP Error: The following recipients failed: admsys@localhost: <admsys@localhost>: Recipient address rejected: User unknown in local recipient table
+
+2018-06-14 10:11:56 [2@ufaslquticglpip]
+Fatal error: giving up delivery of email to admsys@localhost: [GLPI #0000010] New ticket otra pueba para enviar mail 
+2018-06-14 10:18:06 [@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 0 retries remaining. Message: [GLPI #0000004] New ticket no tengo acceso al banner , Error: SMTP Error: The following recipients failed: admsys@localhost: <admsys@localhost>: Recipient address rejected: User unknown in local recipient table
+
+2018-06-14 10:18:06 [@ufaslquticglpip]
+Fatal error: giving up delivery of email to admsys@localhost: [GLPI #0000004] New ticket no tengo acceso al banner 
+2018-06-14 10:18:06 [@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 0 retries remaining. Message: [GLPI #0000005] New ticket no sale clave, Error: SMTP Error: The following recipients failed: admsys@localhost: <admsys@localhost>: Recipient address rejected: User unknown in local recipient table
+
+2018-06-14 10:18:06 [@ufaslquticglpip]
+Fatal error: giving up delivery of email to admsys@localhost: [GLPI #0000005] New ticket no sale clave
+2018-06-14 10:18:06 [@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 0 retries remaining. Message: [GLPI #0000006] New ticket Correo-Relay, Error: SMTP Error: The following recipients failed: admsys@localhost: <admsys@localhost>: Recipient address rejected: User unknown in local recipient table
+
+2018-06-14 10:18:06 [@ufaslquticglpip]
+Fatal error: giving up delivery of email to admsys@localhost: [GLPI #0000006] New ticket Correo-Relay
+2018-06-14 10:18:06 [@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 0 retries remaining. Message: [GLPI #0000007] New ticket no sale mail, Error: SMTP Error: The following recipients failed: admsys@localhost: <admsys@localhost>: Recipient address rejected: User unknown in local recipient table
+
+2018-06-14 10:18:06 [@ufaslquticglpip]
+Fatal error: giving up delivery of email to admsys@localhost: [GLPI #0000007] New ticket no sale mail
+2018-06-14 10:18:06 [@ufaslquticglpip]
+Warning: an email was undeliverable to admsys@localhost with 0 retries remaining. Message: [GLPI #0000009] New ticket fsdfsdfsdf, Error: SMTP Error: The following recipients failed: admsys@localhost: <admsys@localhost>: Recipient address rejected: User unknown in local recipient table
+
+2018-06-14 10:18:06 [@ufaslquticglpip]
+Fatal error: giving up delivery of email to admsys@localhost: [GLPI #0000009] New ticket fsdfsdfsdf
