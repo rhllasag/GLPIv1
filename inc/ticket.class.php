@@ -4631,7 +4631,7 @@ class Ticket extends CommonITILObject {
          Html::showDateTimeField("date", ['value'      => $date,
                                           'timestep'   => 1,
                                           'maybeempty' => false,
-                                          'canedit'=> false,
+                                          'canedit'=> false
                                           'required'   => ($tt->isMandatoryField('date') && !$ID)]);
       } else {
          echo Html::convDateTime($date);
@@ -4645,7 +4645,8 @@ class Ticket extends CommonITILObject {
       echo "<td width='$colsize4%'>";
       echo $tt->getBeginHiddenFieldValue('requesttypes_id');
       if ($canupdate) {
-         RequestType::dropdown(['value' => $this->fields["requesttypes_id"], 'condition' => 'is_active = 1 AND is_ticketheader = 1']);
+         RequestType::dropdown(['value' => $this->fields["requesttypes_id"],
+                   'condition' => 'is_active = 0 AND is_ticketheader = 1']);
       } else {
          echo Dropdown::getDropdownName('glpi_requesttypes', $this->fields["requesttypes_id"]);
          echo Html::hidden('requesttypes_id', ['value' => $this->fields["requesttypes_id"]]);
