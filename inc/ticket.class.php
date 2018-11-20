@@ -4631,7 +4631,6 @@ class Ticket extends CommonITILObject {
          Html::showDateTimeField("date", ['value'      => $date,
                                           'timestep'   => 1,
                                           'maybeempty' => false,
-                                          'canedit'=> false;
                                           'required'   => ($tt->isMandatoryField('date') && !$ID)]);
       } else {
          echo Html::convDateTime($date);
