@@ -14771,3 +14771,769 @@ Test
   inc/user.class.php:2128                            
   inc/commonglpi.class.php:472                       User->showForm()
   ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-15 15:29:06 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 15:29:12 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 15:29:22 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 15:29:30 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 15:35:56 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_banner
+  Backtrace :
+  inc/user.class.php:2003                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-15 15:35:56 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_puesto
+  Backtrace :
+  inc/user.class.php:2009                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-15 15:35:56 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: val_correo
+  Backtrace :
+  inc/user.class.php:2047                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-15 15:35:56 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_cedula
+  Backtrace :
+  inc/user.class.php:2073                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-15 15:35:56 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: telefono_banner
+  Backtrace :
+  inc/user.class.php:2108                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-15 15:35:56 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: ext_banner
+  Backtrace :
+  inc/user.class.php:2128                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-15 15:37:28 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 15:38:15 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 15:38:31 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 15:38:54 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 15:38:59 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 15:42:13 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 15:42:17 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 15:42:22 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 15:42:26 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 15:42:33 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 15:42:39 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 15:42:45 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 15:42:56 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 15:43:00 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 15:43:18 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 15:43:23 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 15:43:34 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 15:43:41 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 15:43:53 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 15:43:59 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 15:44:05 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 15:44:12 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 16:04:06 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 16:04:48 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 16:04:54 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 16:05:00 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 16:05:02 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-15 16:05:06 [2@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-16 06:46:54 [@ufaslquticglpip]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:234                             ldap_bind()
+  inc/authldap.class.php:2653                        Auth->connection_ldap()
+  inc/authldap.class.php:2717                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:706                             AuthLDAP::tryLdapAuth()
+  front/login.php:79                                 Auth->Login()
+2018-11-16 06:46:54 [@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/html.class.php:1198                            
+  inc/html.class.php:1769                            Html::includeHeader()
+  front/login.php:83                                 Html::nullHeader()
+2018-11-16 09:06:53 [@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/html.class.php:1198                            
+  inc/html.class.php:1769                            Html::includeHeader()
+  front/login.php:83                                 Html::nullHeader()
+2018-11-16 09:06:59 [@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/html.class.php:1198                            
+  inc/html.class.php:1769                            Html::includeHeader()
+  front/login.php:83                                 Html::nullHeader()
+2018-11-16 09:07:20 [@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/html.class.php:1198                            
+  inc/html.class.php:1769                            Html::includeHeader()
+  front/login.php:83                                 Html::nullHeader()
+2018-11-16 11:38:07 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: can_requester
+  Backtrace :
+  inc/ticket.class.php:5080                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-16 11:38:23 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: can_requester
+  Backtrace :
+  inc/ticket.class.php:5080                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-16 11:44:14 [@ufaslquticglpip]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:234                             ldap_bind()
+  inc/authldap.class.php:2653                        Auth->connection_ldap()
+  inc/authldap.class.php:2717                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:706                             AuthLDAP::tryLdapAuth()
+  front/login.php:79                                 Auth->Login()
+2018-11-16 11:44:14 [@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/html.class.php:1198                            
+  inc/html.class.php:1769                            Html::includeHeader()
+  front/login.php:83                                 Html::nullHeader()
+2018-11-16 11:55:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: can_requester
+  Backtrace :
+  inc/ticket.class.php:5080                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-16 11:56:49 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: can_requester
+  Backtrace :
+  inc/ticket.class.php:5080                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-16 12:00:53 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_banner
+  Backtrace :
+  inc/user.class.php:2003                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-16 12:00:53 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_puesto
+  Backtrace :
+  inc/user.class.php:2009                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-16 12:00:53 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: val_correo
+  Backtrace :
+  inc/user.class.php:2047                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-16 12:00:53 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_cedula
+  Backtrace :
+  inc/user.class.php:2073                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-16 12:00:53 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: telefono_banner
+  Backtrace :
+  inc/user.class.php:2108                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-16 12:00:53 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: ext_banner
+  Backtrace :
+  inc/user.class.php:2128                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-16 12:07:00 [@ufaslquticglpip]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:234                             ldap_bind()
+  inc/authldap.class.php:2653                        Auth->connection_ldap()
+  inc/authldap.class.php:2717                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:706                             AuthLDAP::tryLdapAuth()
+  front/login.php:79                                 Auth->Login()
+2018-11-16 12:07:00 [@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/html.class.php:1198                            
+  inc/html.class.php:1769                            Html::includeHeader()
+  front/login.php:83                                 Html::nullHeader()
+2018-11-16 12:14:27 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_banner
+  Backtrace :
+  inc/user.class.php:2003                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-16 12:14:27 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_puesto
+  Backtrace :
+  inc/user.class.php:2009                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-16 12:14:27 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: val_correo
+  Backtrace :
+  inc/user.class.php:2047                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-16 12:14:27 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_cedula
+  Backtrace :
+  inc/user.class.php:2073                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-16 12:14:27 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: telefono_banner
+  Backtrace :
+  inc/user.class.php:2108                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-16 12:14:27 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: ext_banner
+  Backtrace :
+  inc/user.class.php:2128                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-16 12:14:37 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_banner
+  Backtrace :
+  inc/user.class.php:2003                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-16 12:14:37 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_puesto
+  Backtrace :
+  inc/user.class.php:2009                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-16 12:14:37 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: val_correo
+  Backtrace :
+  inc/user.class.php:2047                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-16 12:14:37 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_cedula
+  Backtrace :
+  inc/user.class.php:2073                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-16 12:14:37 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: telefono_banner
+  Backtrace :
+  inc/user.class.php:2108                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-16 12:14:37 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: ext_banner
+  Backtrace :
+  inc/user.class.php:2128                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-16 12:18:37 [@ufaslquticglpip]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:234                             ldap_bind()
+  inc/authldap.class.php:2653                        Auth->connection_ldap()
+  inc/authldap.class.php:2717                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:706                             AuthLDAP::tryLdapAuth()
+  front/login.php:79                                 Auth->Login()
+2018-11-16 12:18:37 [@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/html.class.php:1198                            
+  inc/html.class.php:1769                            Html::includeHeader()
+  front/login.php:83                                 Html::nullHeader()
+2018-11-16 12:22:20 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: can_requester
+  Backtrace :
+  inc/ticket.class.php:5080                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-16 15:32:17 [@ufaslquticglpip]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:234                             ldap_bind()
+  inc/authldap.class.php:2653                        Auth->connection_ldap()
+  inc/authldap.class.php:2717                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:706                             AuthLDAP::tryLdapAuth()
+  front/login.php:79                                 Auth->Login()
+2018-11-16 15:32:17 [@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/html.class.php:1198                            
+  inc/html.class.php:1769                            Html::includeHeader()
+  front/login.php:83                                 Html::nullHeader()
+2018-11-19 08:42:19 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_banner
+  Backtrace :
+  inc/user.class.php:2003                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-19 08:42:19 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_puesto
+  Backtrace :
+  inc/user.class.php:2009                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-19 08:42:19 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: val_correo
+  Backtrace :
+  inc/user.class.php:2047                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-19 08:42:19 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_cedula
+  Backtrace :
+  inc/user.class.php:2073                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-19 08:42:19 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: telefono_banner
+  Backtrace :
+  inc/user.class.php:2108                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-19 08:42:19 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: ext_banner
+  Backtrace :
+  inc/user.class.php:2128                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-19 08:42:43 [51@ufaslquticglpip]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1595                        ldap_search()
+  inc/authldap.class.php:1739                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3726                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1445                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3300                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:70                           AuthLDAP::searchUser()
+2018-11-19 09:57:49 [@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/html.class.php:1198                            
+  inc/html.class.php:1769                            Html::includeHeader()
+  front/login.php:83                                 Html::nullHeader()
+2018-11-19 09:59:16 [@ufaslquticglpip]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:234                             ldap_bind()
+  inc/authldap.class.php:2653                        Auth->connection_ldap()
+  inc/authldap.class.php:2717                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:706                             AuthLDAP::tryLdapAuth()
+  front/login.php:79                                 Auth->Login()
+2018-11-19 09:59:16 [@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/html.class.php:1198                            
+  inc/html.class.php:1769                            Html::includeHeader()
+  front/login.php:83                                 Html::nullHeader()
+2018-11-19 10:00:58 [@ufaslquticglpip]
+  *** PHP Warning(2): imap_open(): Couldn't open stream {10.1.1.116:25}}
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:187                             imap_open()
+  inc/authmail.class.php:298                         Auth->connection_imap()
+  inc/authmail.class.php:329                         AuthMail::mailAuth()
+  inc/auth.class.php:732                             AuthMail::tryMailAuth()
+  front/login.php:79                                 Auth->Login()
+2018-11-19 10:00:58 [@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/html.class.php:1198                            
+  inc/html.class.php:1769                            Html::includeHeader()
+  front/login.php:83                                 Html::nullHeader()
+2018-11-19 10:00:58 [@ufaslquticglpip]
+  *** PHP Notice(8): Unknown: [CLOSED] IMAP connection broken (server response) (errflg=2)
+  Backtrace :
+  :                                                  
+2018-11-19 10:02:55 [@ufaslquticglpip]
+  *** PHP Warning(2): imap_open(): Couldn't open stream {10.1.1.116:25}}
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:187                             imap_open()
+  inc/authmail.class.php:298                         Auth->connection_imap()
+  inc/authmail.class.php:329                         AuthMail::mailAuth()
+  inc/auth.class.php:732                             AuthMail::tryMailAuth()
+  front/login.php:79                                 Auth->Login()
+2018-11-19 10:02:55 [@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/html.class.php:1198                            
+  inc/html.class.php:1769                            Html::includeHeader()
+  front/login.php:83                                 Html::nullHeader()
+2018-11-19 10:02:55 [@ufaslquticglpip]
+  *** PHP Notice(8): Unknown: [CLOSED] IMAP connection broken (server response) (errflg=2)
+  Backtrace :
+  :                                                  
+2018-11-19 10:02:55 [@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/html.class.php:1198                            
+  inc/html.class.php:1769                            Html::includeHeader()
+  inc/html.class.php:851                             Html::nullHeader()
+  inc/session.class.php:1210                         Html::displayErrorAndDie()
+  inc/includes.php:171                               Session::checkCSRF()
+  front/login.php:38                                 include()
+2018-11-19 10:03:03 [@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/html.class.php:1198                            
+  inc/html.class.php:1769                            Html::includeHeader()
+  front/login.php:83                                 Html::nullHeader()
+2018-11-19 12:05:06 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: can_requester
+  Backtrace :
+  inc/ticket.class.php:5080                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-19 12:07:16 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: can_requester
+  Backtrace :
+  inc/ticket.class.php:5080                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-19 12:09:33 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: can_requester
+  Backtrace :
+  inc/ticket.class.php:5080                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-19 12:11:59 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: can_requester
+  Backtrace :
+  inc/ticket.class.php:5080                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-11-20 06:48:41 [2@ufaslquticglpip]
+  From MassiveAction::__construct() in /usr/share/glpi/inc/massiveaction.class.php line 266
+  Implementation error ! 
+2018-11-20 07:50:51 [@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/html.class.php:1198                            
+  inc/html.class.php:1769                            Html::includeHeader()
+  front/login.php:83                                 Html::nullHeader()
+2018-11-20 09:32:15 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: datastoadd
+  Backtrace :
+  ajax/getDropdownValue.php:458                      
+2018-11-20 09:32:18 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: datastoadd
+  Backtrace :
+  ajax/getDropdownValue.php:458                      
+2018-11-20 09:32:20 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: datastoadd
+  Backtrace :
+  ajax/getDropdownValue.php:458                      
+2018-11-20 09:42:29 [@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/html.class.php:1198                            
+  inc/html.class.php:1769                            Html::includeHeader()
+  front/login.php:83                                 Html::nullHeader()
+2018-11-20 09:43:40 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: datastoadd
+  Backtrace :
+  ajax/getDropdownValue.php:458                      
+2018-11-20 09:43:43 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: datastoadd
+  Backtrace :
+  ajax/getDropdownValue.php:458                      
