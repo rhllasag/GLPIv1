@@ -4898,10 +4898,10 @@ class Ticket extends CommonITILObject {
       echo "<td>";
       echo $tt->getBeginHiddenFieldValue('locations_id');
       if ($canupdate) {
-         //Location::dropdown(['value'  => $this->fields['locations_id'],
-            //                      'entity' => $this->fields['entities_id']]);
+         Location::dropdown(['value'  => $this->fields['locations_id'],
+                                  'entity' => $this->fields['entities_id'],'condition' => 'is_active = 1 AND is_ticketheader = 1']);
       } else {
-         //echo Dropdown::getDropdownName('glpi_locations', $this->fields["locations_id"]);
+         echo Dropdown::getDropdownName('glpi_locations', $this->fields["locations_id"]);
       }
       echo $tt->getEndHiddenFieldValue('locations_id', $this);
       echo "</td>";
