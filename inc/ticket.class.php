@@ -3980,7 +3980,7 @@ class Ticket extends CommonITILObject {
          echo "<tr class='tab_bg_1'><td>";
          printf(__('%1$s%2$s'), __('Location'), $tt->getMandatoryMark('locations_id'));
          echo "</td><td>";
-         Location::dropdown(['value'  => $options["locations_id"]]);
+         //Location::dropdown(['value'  => $options["locations_id"]]);
          echo "</td></tr>";
       }
 
@@ -4645,7 +4645,7 @@ class Ticket extends CommonITILObject {
       echo "<td width='$colsize4%'>";
       echo $tt->getBeginHiddenFieldValue('requesttypes_id');
        if ($canupdate) {
-         RequestType::dropdown(['value' => $this->fields["requesttypes_id"], 'condition' => 'is_active = 1 AND is_ticketheader = 1', 'permit_select_parent'=>false]);
+         RequestType::dropdown(['value' => $this->fields["requesttypes_id"], 'condition' => 'is_active = 1 AND is_ticketheader = 1']);
       } else {
          echo Dropdown::getDropdownName('glpi_requesttypes', $this->fields["requesttypes_id"]);
          echo Html::hidden('requesttypes_id', ['value' => $this->fields["requesttypes_id"]]);
