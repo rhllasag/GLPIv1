@@ -4644,12 +4644,12 @@ class Ticket extends CommonITILObject {
       echo $tt->getEndHiddenFieldText('requesttypes_id')."</th>";
       echo "<td width='$colsize4%'>";
       echo $tt->getBeginHiddenFieldValue('requesttypes_id');
-      if ($canupdate) {
-         RequestType::dropdown(['value' => $this->fields["requesttypes_id"], 'condition' => 'is_active = 1 AND is_ticketheader = 1','canedit'=>false]);
+     /*  if ($canupdate) {
+         RequestType::dropdown(['value' => $this->fields["requesttypes_id"], 'condition' => 'is_active = 1 AND is_ticketheader = 1']);
       } else {
          echo Dropdown::getDropdownName('glpi_requesttypes', $this->fields["requesttypes_id"]);
          echo Html::hidden('requesttypes_id', ['value' => $this->fields["requesttypes_id"]]);
-      }
+      } */
       echo $tt->getEndHiddenFieldValue('requesttypes_id', $this);
       echo "</td>";
       echo "</tr>";
