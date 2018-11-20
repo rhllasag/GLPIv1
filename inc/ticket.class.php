@@ -3980,7 +3980,7 @@ class Ticket extends CommonITILObject {
          echo "<tr class='tab_bg_1'><td>";
          printf(__('%1$s%2$s'), __('Location'), $tt->getMandatoryMark('locations_id'));
          echo "</td><td>";
-         //Location::dropdown(['value'  => $options["locations_id"]]);
+         Location::dropdown(['value'  => $options["locations_id"]]);
          echo "</td></tr>";
       }
 
@@ -4898,10 +4898,10 @@ class Ticket extends CommonITILObject {
       echo "<td>";
       echo $tt->getBeginHiddenFieldValue('locations_id');
       if ($canupdate) {
-         Location::dropdown(['value'  => $this->fields['locations_id'],
+         //Location::dropdown(['value'  => $this->fields['locations_id'],
                                   'entity' => $this->fields['entities_id']]);
       } else {
-         echo Dropdown::getDropdownName('glpi_locations', $this->fields["locations_id"]);
+         //echo Dropdown::getDropdownName('glpi_locations', $this->fields["locations_id"]);
       }
       echo $tt->getEndHiddenFieldValue('locations_id', $this);
       echo "</td>";
