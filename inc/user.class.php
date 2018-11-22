@@ -1984,7 +1984,7 @@ class User extends CommonDBTM {
 
 
 	//$query="SELECT UZGTPERSON_NOMBRE, UZGTPERSON_CORR, UZGTTELE_NUM_TELEFONO, UZGTEXTE_NUM_EXTENSION FROM BANINST1.BZPVGUIAT WHERE ID_TERCEROS='magallardo'";
-	$query="SELECT UZGTPERSON_NOMBRE, UZGTPERSON_PUEST, UZGTPERSON_CORR,UZGTPERSON_CEDULA, UZGTTELE_NUM_TELEFONO, UZGTEXTE_NUM_EXTENSION FROM BANINST1.BZPVGUIAT WHERE ID_TERCEROS='".$this->fields['name']."'";
+	$query="SELECT UZGTPERSON_NOMBRE, UZGTPERSON_PUEST, UZGTPERSON_CORR,UZGTPERSON_CEDULA, UZGTTELE_NUM_TELEFONO, UZGTEXTE_NUM_EXTENSION, UZGTPERSON_ID FROM BANINST1.BZPVGUIAT WHERE ID_TERCEROS='".$this->fields['name']."'";
 	$resultado=oci_parse($conn,$query);
 
 	@oci_execute($resultado);
@@ -1994,11 +1994,53 @@ class User extends CommonDBTM {
 	$n_banner= $row['UZGTPERSON_NOMBRE'];
 	$n_cedula=$row ['UZGTPERSON_CEDULA'];
 	$n_puesto=$row ['UZGTPERSON_PUEST'];
-	$val_correo=$row['UZGTPERSON_CORR'];
-	}
+    $val_correo=$row['UZGTPERSON_CORR'];
+    $person_id=$row['UZGTPERSON_ID'];
+    }
+    oci_close($conn);
+    $conn=oci_pconnect($usuario,$password,$host);
+    $query2="SELECT DISTINCT pebempl.pebempl_PIDM,
+    ( CASE pebempl_bcat_code WHEN 'DO' THEN
+        (SELECT  (select PTVEGRP_DESC from payroll.PTVEGRP WHERE PTVEGRP_CODE = pebempl_EGRP_CODE)
+    FROM pebempl t where t.PEBEMPL_pidm = pebempl.pebempl_PIDM)
+        ELSE (SELECT PTRECLS_LONG_DESC FROM PTRECLS  WHERE PTRECLS_CODE = pebempl.PEBEMPL_ECLS_CODE)
+    END 
+    ) AS RELACION_LABORAL,
+
+    (CASE pebempl_bcat_code WHEN 'DO' THEN
+    (SELECT PTRECLS_LONG_DESC FROM PTRECLS  WHERE PTRECLS_CODE = pebempl.PEBEMPL_ECLS_CODE) END
+    ) AS DEDICACION,
+
+    pebempl_bcat_code  AS TIPO_EMPLEADO,
+            
+    pebempl_empl_status AS STATUS,
+    (SELECT FTVORGN_TITLE FROM FTVORGN WHERE FTVORGN_ORGN_CODE = PEBEMPL_ORGN_CODE_HOME) AS SECCION,
+    (SELECT PTRJBLN_DESC FROM PTRJBLN WHERE PTRJBLN_CODE = PEBEMPL_JBLN_CODE) AS UBICACION,
+    (SELECT STVCOLL_DESC FROM STVCOLL WHERE STVCOLL_CODE = PEBEMPL_COLL_CODE)DEPARTAMENTO,
+    (SELECT STVCAMP_DESC FROM STVCAMP WHERE STVCAMP_CODE = PEBEMPL_CAMP_CODE)CAMPUS,
+
+
+    ( CASE pebempl_bcat_code WHEN 'DO' THEN
+        (SELECT STVCOLL_DESC FROM STVCOLL WHERE STVCOLL_CODE = PEBEMPL_COLL_CODE)
+        ELSE 
+        (SELECT FTVORGN_TITLE FROM FTVORGN WHERE FTVORGN_ORGN_CODE = PEBEMPL_ORGN_CODE_HOME)
+    END 
+    ) AS DEPARTAMENTO
+
+        FROM PEBEMPL
+    WHERE pebempl_empl_status = 'A' 
+    AND 
+    pebempl.pebempl_PIDM = '".$person_id."'";
+
+    $resultado2=oci_parse($conn,$query2);
+
+    @oci_execute($resultado2);
+	while (($row2 =oci_fetch_array($resultado2))!=false){
+        $department=$row2['DEPARTAMENTO'];
+    }
 	oci_close($conn);
 
- $surnamerand = mt_rand();
+    $surnamerand = mt_rand();
       echo "<tr class='tab_bg_1'><td><label for='textfield_realname$surnamerand'>" . __('Apellidos y Nombres') . "</label></td><td>";
       Html::autocompletionTextField($this, "realname", ['rand' => $surnamerand, 'value'=>$n_banner]);
       echo "</td></tr>";
@@ -2032,7 +2074,7 @@ class User extends CommonDBTM {
          echo "</td></tr>";
       }
 
-      echo "<tr class='tab_bg_1'>";
+       echo "<tr class='tab_bg_1'>";
       if (!GLPI_DEMO_MODE) {
          $activerand = mt_rand();
          echo "<td><label for='dropdown_is_active$activerand'>".__('Active')."</label></td><td>";
@@ -2046,8 +2088,39 @@ class User extends CommonDBTM {
       echo "</td><td>";
       UserEmail::showForUserMV($this, $val_correo);
       echo "</td>";
-      echo "</tr>";
+      echo "</tr>"; 
+      
+//SECCION y UNIDAD
+/* */
 
+
+
+/*
+------------******************** ORGANICO 
+    SELECT
+    (SELECT DISTINCT FTVORGN_TITLE FROM FTVORGN   WHERE  FTVORGN_ORGN_CODE = (SELECT FTVORGN_ORGN_CODE_PRED FROM FTVORGN   WHERE  FTVORGN_ORGN_CODE  = t.FTVORGN_ORGN_CODE_PRED)) AS XXXRRRR,
+    (SELECT DISTINCT FTVORGN_TITLE FROM FTVORGN   WHERE  FTVORGN_ORGN_CODE LIKE t.FTVORGN_ORGN_CODE_PRED) AS XXXPP,
+    (SELECT DISTINCT FTVORGN_TITLE FROM FTVORGN   WHERE  FTVORGN_ORGN_CODE LIKE t.FTVORGN_ORGN_CODE) AS XXX,
+    (SELECT FTVORGN_ORGN_CODE FROM FTVORGN   WHERE  FTVORGN_ORGN_CODE = t.FTVORGN_ORGN_CODE) AS XXX1,
+    (SELECT FTVORGN_ORGN_CODE_PRED FROM FTVORGN   WHERE  FTVORGN_ORGN_CODE = t.FTVORGN_ORGN_CODE) AS XXX2
+    FROM FTVORGN t
+    WHERE FTVORGN_ORGN_CODE = '9404'
+
+
+----------****************
+*/
+    echo "<tr class='tab_bg_1'>";
+      if (!GLPI_DEMO_MODE) {
+        $section_rand = mt_rand();
+        $department_rand = mt_rand();
+         echo "<td><label for=for='textfield_realname$department_rand'>".__('Unidad')."</label></td><td>";
+        Html::autocompletionTextField($this, "realname", ['rand' => $department_rand, 'value'=>$department]);
+         echo "</td>";
+      } else {
+         echo "<td colspan='2'></td>";
+      }
+      echo "</tr>"; 
+/* 
       if (!GLPI_DEMO_MODE) {
          $sincerand = mt_rand();
          echo "<tr class='tab_bg_1'>";
@@ -2065,7 +2138,7 @@ class User extends CommonDBTM {
                                               'timestep'    => 1,
                                               'maybeempty'  => true]);
          echo "</td></tr>";
-      }
+      } */
 //CEDULA 
       $phonerand = mt_rand();
       echo "<tr class='tab_bg_1'>";
