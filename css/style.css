@@ -405,7 +405,7 @@ body.container {
 	padding: 0;
 }
 .login-container .block-web .head {
-	background: #0077B3; 
+	background: #076C44; 
 	border-bottom: 1px solid #ccc;
 	padding: 9px 20px;
 }
@@ -911,7 +911,7 @@ div[data-role="editor-toolbar"] {
 
 .btn-primary {
   /* drop */
-  border-bottom: 4px solid #286090;
+  border-bottom: 4px solid #076C44;
   }
  
   
@@ -970,7 +970,7 @@ div[data-role="editor-toolbar"] {
 }
 
 .head {
-	background: #0077B3;
+	background: #076C44;
 	border-bottom: 1px solid #ccc;
 	padding: 5px 20px;
 	border-bottom-right-radius: 0px;

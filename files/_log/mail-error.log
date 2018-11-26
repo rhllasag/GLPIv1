@@ -206,3 +206,5 @@ Warning: an email was undeliverable to admsys@localhost with 0 retries remaining
 
 2018-06-14 10:18:06 [@ufaslquticglpip]
 Fatal error: giving up delivery of email to admsys@localhost: [GLPI #0000009] New ticket fsdfsdfsdf
+2018-11-26 08:50:03 [51@ufaslquticglpip]
+Warning: an email was undeliverable to mavalencia2@espe.edu.ec with 5 retries remaining. Message: [GLPI #0000083] Nueva incidencia De prueba para gestion de turnos, Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
