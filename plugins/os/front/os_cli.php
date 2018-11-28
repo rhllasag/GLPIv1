@@ -52,12 +52,12 @@ if (isset($_SESSION["glpipalette"])) {
 <tr><td width="50%" style="text-align:left;"><b>Título:</b> <?php echo $OsNome;?></td><td width="50%" style="text-align:left;"><b>Responsable:</b> <?php echo $OsResponsavel;?></td></tr>
 <tr><td width="50%" style="text-align:left;"><b>Fecha/Hora de Inicio: </b><?php echo ($OsData);?></td><td style="text-align:left;"><b>Fecha/Hora de Fin: </b><?php echo ($OsDataEntrega);?></td></tr>
 <tr>
-<td>
+<td style="text-align:left;">
 <?php
 	if ( $Locations == null ) {
 		echo "</tr></td>";
 	} else {
-		echo "<b>Localização: </b>$Locations";
+		echo "<b>Localización: </b>$Locations";
 		echo "</tr></td>";
 	}
 ?>

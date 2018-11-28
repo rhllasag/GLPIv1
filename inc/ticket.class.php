@@ -3750,8 +3750,7 @@ class Ticket extends CommonITILObject {
       }
 
       if (!$ticket_template) {
-         echo "<form method='post' name='helpdeskform' action='".
-               $CFG_GLPI["root_doc"]."/front/tracking.injector.php' enctype='multipart/form-data'>";
+         echo "<form method='post' name='helpdeskform' action='".$CFG_GLPI["root_doc"]."/front/tracking.injector.php' enctype='multipart/form-data'>";
       }
 
       $delegating = User::getDelegateGroupsForUser($options['entities_id']);
@@ -5299,10 +5298,10 @@ echo "</tr>";*/
                echo "<input type='hidden' name='_read_date_mod' value='".$this->getField('date_mod')."'>";
                echo "</div>";
             }
-
+//--------Add Button for ticket-------------------------------------------------------------//
          } else {
             echo "<div class='tab_bg_2 center'>";
-            echo "<input type='submit' name='add' value=\""._sx('button', 'Add')."\" class='submit'>";
+            echo "<input type='submit' name='add' value=\""._sx('button', 'Add')."\" class='submit'>"; 
             if ($tt->isField('id') && ($tt->fields['id'] > 0)) {
                echo "<input type='hidden' name='_tickettemplates_id' value='".$tt->fields['id']."'>";
                echo "<input type='hidden' name='_predefined_fields'

@@ -2113,8 +2113,8 @@ class User extends CommonDBTM {
       if (!GLPI_DEMO_MODE) {
         $section_rand = mt_rand();
         $department_rand = mt_rand();
-         echo "<td><label for=for='textfield_realname$department_rand'>".__('Unidad')."</label></td><td>";
-        Html::autocompletionTextField($this, "realname", ['rand' => $department_rand, 'value'=>$department]);
+         echo "<td><label for=for='textfield_department$department_rand'>".__('Unidad')."</label></td><td>";
+        Html::autocompletionTextField($this, "department", ['rand' => $department_rand, 'value'=>$department]);
          echo "</td>";
       } else {
          echo "<td colspan='2'></td>";

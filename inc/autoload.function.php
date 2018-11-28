@@ -148,6 +148,7 @@ function __s($str, $domain = 'glpi') {
  * @return string protected string (with htmlentities)
  */
 function _sx($ctx, $str, $domain = 'glpi') {
+   // echo '<script> alert("'.$str.'")</script>'; 
    return htmlentities(_x($ctx, $str, $domain), ENT_QUOTES, 'UTF-8');
 }
 
