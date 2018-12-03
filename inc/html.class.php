@@ -1514,7 +1514,7 @@ class Html {
       $FOOTER_LOADED = true;
       echo "</div>"; // fin de la div id ='page' initi??e dans la fonction header
 
-      echo "<div id='footer' >";
+/*       echo "<div id='footer' >";
       echo "<table><tr><td class='left'><span class='copyright'>";
       $timedebug = sprintf(_n('%s second', '%s seconds', $TIMER_DEBUG->getTime()),
                            $TIMER_DEBUG->getTime());
@@ -1535,7 +1535,7 @@ class Html {
          echo "</td>";
       }
       echo "<td class='right'>" . self::getCopyrightMessage() . "</td>";
-      echo "</tr></table></div>";
+      echo "</tr></table></div>"; */
 
       if ($_SESSION['glpi_use_mode'] == Session::TRANSLATION_MODE) { // debug mode traduction
          echo "<div id='debug-float'>";
@@ -1548,8 +1548,12 @@ class Html {
          echo "<a href='#see_maintenance'>GLPI MAINTENANCE MODE</a>";
          echo "</div>";
       }
+      
       self::displayDebugInfos();
       self::loadJavascript();
+      echo "<link href='https://snatchbot.me/sdk/webchat.css' rel='stylesheet' type='text/css'>";
+      echo "<script src='https://snatchbot.me/sdk/webchat.min.js'></script><script> Init('?botID=37487&appID=webchat', 600, 600, 'https://dvgpba5hywmpo.cloudfront.net/media/image/Wvu2nu6ImZfhqCcKjrMDQXN4J', 'bubble', '#00AFF0', 90, 90, 62.99999999999999, '', '1', '#FFFFFF', 0);</script>";
+      
       echo "</body></html>";
 
       if (!$keepDB) {
@@ -1716,7 +1720,7 @@ class Html {
 
       echo "</div>"; // fin de la div id ='page' initi??e dans la fonction header
 
-      echo "<div id='footer'>";
+/*       echo "<div id='footer'>";
       echo "<table width='100%'><tr><td class='right'>" . self::getCopyrightMessage();
       echo "</td></tr></table></div>";
 
@@ -1730,8 +1734,11 @@ class Html {
          echo "<div id='debug-float'>";
          echo "<a href='#see_debug'>GLPI DEBUG MODE</a>";
          echo "</div>";
-      }
+      } */
       self::displayDebugInfos();
+      echo "<link href='https://snatchbot.me/sdk/webchat.css' rel='stylesheet' type='text/css'>";
+      echo "<script src='https://snatchbot.me/sdk/webchat.min.js'></script><script> Init('?botID=37487&appID=webchat', 600, 600, 'https://dvgpba5hywmpo.cloudfront.net/media/image/Wvu2nu6ImZfhqCcKjrMDQXN4J', 'bubble', '#00AFF0', 90, 90, 62.99999999999999, '', '1', '#FFFFFF', 0);</script>";
+      
       echo "</body></html>";
       self::loadJavascript();
       closeDBConnections();
@@ -1794,6 +1801,9 @@ class Html {
 
          echo "<div id='footer-login'>" . self::getCopyrightMessage() . "</div>";
          self::loadJavascript();
+         echo "<link href='https://snatchbot.me/sdk/webchat.css' rel='stylesheet' type='text/css'>";
+      echo "<script src='https://snatchbot.me/sdk/webchat.min.js'></script><script> Init('?botID=37487&appID=webchat', 600, 600, 'https://dvgpba5hywmpo.cloudfront.net/media/image/Wvu2nu6ImZfhqCcKjrMDQXN4J', 'bubble', '#00AFF0', 90, 90, 62.99999999999999, '', '1', '#FFFFFF', 0);</script>";
+      
          echo "</body></html>";
       }
       closeDBConnections();
@@ -1835,6 +1845,9 @@ class Html {
 
       // Print foot
       self::loadJavascript();
+      echo "<link href='https://snatchbot.me/sdk/webchat.css' rel='stylesheet' type='text/css'>";
+      echo "<script src='https://snatchbot.me/sdk/webchat.min.js'></script><script> Init('?botID=37487&appID=webchat', 600, 600, 'https://dvgpba5hywmpo.cloudfront.net/media/image/Wvu2nu6ImZfhqCcKjrMDQXN4J', 'bubble', '#00AFF0', 90, 90, 62.99999999999999, '', '1', '#FFFFFF', 0);</script>";
+      
       echo "</body></html>";
    }
 
@@ -5501,10 +5514,7 @@ class Html {
     */
    static function getCopyrightMessage() {
       $message = "<a href=\"http://glpi-project.org/\" title=\"Powered By Teclib\" class=\"copyright\">";
-      $message .= "GLPI " . GLPI_VERSION .
-         " Copyright (C) 2015-" . GLPI_YEAR . " Teclib' and contributors".
-         " - Copyright (C) 2003-2015 INDEPNET Development Team".
-         "</a>";
+      $message .= "@rhllasag";
       return $message;
    }
 
@@ -6016,7 +6026,9 @@ class Html {
             if (isset($menu[$sector]) && $menu[$sector]['title'] == $data['title']) {
                $menu_class = "active";
             }
-
+            if($data['title']=='Plugins'){
+                continue;
+            } //------------------------------------------DISABLing Plugins of Menu----------------------/
             echo "<li id='menu$i' data-id='$i' class='$menu_class'>";
             $link = "#";
 
@@ -6089,7 +6101,7 @@ class Html {
          // Display plugins
          if (isset($menu['plugins']['content']) && count($menu['plugins']['content']) > 0) {
             asort($menu['plugins']['content']);
-            echo "<li id='menu5' onmouseover=\"javascript:menuAff('menu5','menu');\">";
+             echo "<li id='menu5' onmouseover=\"javascript:menuAff('menu5','menu');\">";
             echo "<a href='#' title=\"".
                   _sn('Plugin', 'Plugins', Session::getPluralNumber())."\" class='itemP'>".
                   __('Plugins')."</a>"; // default none
@@ -6100,7 +6112,7 @@ class Html {
                echo "<li><a href='".$CFG_GLPI["root_doc"]."/plugins/".$key.$val['page']."'>".
                         $val["title"]."</a></li>";
             }
-            echo "</ul></li>";
+            echo "</ul></li>"; 
          }
       }
 

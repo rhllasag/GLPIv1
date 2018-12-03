@@ -4714,7 +4714,7 @@ class Ticket extends CommonITILObject {
       echo "</tr>";
 
       // SLAs
-      echo "<tr class='tab_bg_1'>";
+/*       echo "<tr class='tab_bg_1'>";
       echo "<th width='$colsize1%'>".$tt->getBeginHiddenFieldText('time_to_own');
       if (!$ID) {
          printf(__('%1$s%2$s'), __('Time to own'), $tt->getMandatoryMark('time_to_own'));
@@ -4738,10 +4738,10 @@ class Ticket extends CommonITILObject {
       echo "<td width='$colsize4%' class='nopadding'>";
       $sla->showForTicket($this, SLM::TTR, $tt, $canupdate);
       echo "</td>";
-      echo "</tr>";
+      echo "</tr>"; */
 
       // OLAs
-      echo "<tr class='tab_bg_1'>";
+/*       echo "<tr class='tab_bg_1'>";
       echo "<th width='$colsize1%'>".$tt->getBeginHiddenFieldText('internal_time_to_own');
       if (!$ID) {
          printf(__('%1$s%2$s'), __('Tiempo interno de resolucion'), $tt->getMandatoryMark('internal_time_to_own'));
@@ -4765,7 +4765,7 @@ class Ticket extends CommonITILObject {
       echo "<td width='$colsize4%' class='nopadding'>";
       $ola->showForTicket($this, SLM::TTR, $tt, $canupdate);
       echo "</td>";
-      echo "</tr>";
+      echo "</tr>"; */
 
       if ($ID
           && (in_array($this->fields["status"], $this->getSolvedStatusArray())
@@ -4908,7 +4908,7 @@ class Ticket extends CommonITILObject {
 	  
       // Display validation state
       echo "<th>";
-      if (!$ID) {
+/*       if (!$ID) {
          echo $tt->getBeginHiddenFieldText('_add_validation');
          printf(__('%1$s%2$s'), __('Approval request'), $tt->getMandatoryMark('_add_validation'));
          echo $tt->getEndHiddenFieldText('_add_validation');
@@ -4917,7 +4917,7 @@ class Ticket extends CommonITILObject {
          echo __('Approval');
          echo $tt->getEndHiddenFieldText('global_validation');
       }
-      echo "</th>";
+      echo "</th>"; */
       echo "<td>";
       if (!$ID) {
          echo $tt->getBeginHiddenFieldValue('_add_validation');

@@ -7,5 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'SimplePie' => array($vendorDir . '/simplepie/simplepie/library'),
-    'Michelf' => array($vendorDir . '/michelf/php-markdown'),
+    'SensioLabs\\Security' => array($vendorDir . '/sensiolabs/security-checker'),
+    'Dflydev\\DotAccessData' => array($vendorDir . '/dflydev/dot-access-data/src'),
 );

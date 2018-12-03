@@ -15537,3 +15537,2292 @@ Test
   *** PHP Notice(8): Undefined variable: datastoadd
   Backtrace :
   ajax/getDropdownValue.php:458                      
+2018-11-30 09:24:45 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-11-30 09:24:45 [@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/html.class.php:1198                            
+  inc/html.class.php:1776                            Html::includeHeader()
+  inc/html.class.php:851                             Html::nullHeader()
+  inc/session.class.php:1210                         Html::displayErrorAndDie()
+  inc/includes.php:171                               Session::checkCSRF()
+  front/login.php:38                                 include()
+2018-11-30 09:25:20 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-11-30 09:27:08 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-11-30 09:28:54 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-11-30 09:30:23 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:75               
+  plugins/dashboard/front/main.php:524               include()
+2018-11-30 09:30:23 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:77               
+  plugins/dashboard/front/main.php:524               include()
+2018-11-30 09:30:23 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:79               
+  plugins/dashboard/front/main.php:524               include()
+2018-11-30 09:30:23 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:81               
+  plugins/dashboard/front/main.php:524               include()
+2018-11-30 09:30:23 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: usedd
+  Backtrace :
+  plugins/dashboard/front/main.php:532               
+2018-11-30 09:30:23 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: totald
+  Backtrace :
+  plugins/dashboard/front/main.php:534               
+2018-11-30 09:30:23 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: titled
+  Backtrace :
+  plugins/dashboard/front/main.php:535               
+2018-11-30 09:30:23 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/main.php:536               
+2018-11-30 09:30:24 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-11-30 09:30:24 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 2
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-11-30 09:30:24 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 3
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-11-30 09:30:24 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 4
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-11-30 09:30:24 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 5
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-11-30 09:30:24 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 6
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-11-30 09:30:24 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...rd/front/graphs/inc/grafpie_stat_tec.inc.php:77 
+  plugins/dashboard/front/graphs/graf_tech.php:418   include()
+2018-11-30 09:30:24 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...rd/front/graphs/inc/grafpie_stat_tec.inc.php:78 
+  plugins/dashboard/front/graphs/graf_tech.php:418   include()
+2018-11-30 09:30:24 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...d/front/graphs/inc/grafpie_tipo_tec.inc.php:119 
+  plugins/dashboard/front/graphs/graf_tech.php:422   include()
+2018-11-30 09:30:24 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...d/front/graphs/inc/grafpie_tipo_tec.inc.php:120 
+  plugins/dashboard/front/graphs/graf_tech.php:422   include()
+2018-11-30 09:30:24 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...d/front/graphs/inc/grafpie_prio_tech.inc.php:98 
+  plugins/dashboard/front/graphs/graf_tech.php:434   include()
+2018-11-30 09:30:24 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...d/front/graphs/inc/grafpie_prio_tech.inc.php:99 
+  plugins/dashboard/front/graphs/graf_tech.php:434   include()
+2018-11-30 09:30:46 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-11-30 09:32:58 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-11-30 09:33:04 [@ufaslquticglpip]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:234                             ldap_bind()
+  inc/authldap.class.php:2653                        Auth->connection_ldap()
+  inc/authldap.class.php:2717                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:706                             AuthLDAP::tryLdapAuth()
+  front/login.php:79                                 Auth->Login()
+2018-11-30 09:33:04 [@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/html.class.php:1198                            
+  inc/html.class.php:1776                            Html::includeHeader()
+  front/login.php:83                                 Html::nullHeader()
+2018-11-30 09:33:06 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-11-30 10:35:02 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-11-30 10:35:11 [@ufaslquticglpip]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:234                             ldap_bind()
+  inc/authldap.class.php:2653                        Auth->connection_ldap()
+  inc/authldap.class.php:2717                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:706                             AuthLDAP::tryLdapAuth()
+  front/login.php:79                                 Auth->Login()
+2018-11-30 10:35:11 [@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/html.class.php:1198                            
+  inc/html.class.php:1776                            Html::includeHeader()
+  front/login.php:83                                 Html::nullHeader()
+2018-11-30 10:35:13 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-11-30 10:36:10 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-11-30 10:36:26 [@ufaslquticglpip]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:234                             ldap_bind()
+  inc/authldap.class.php:2653                        Auth->connection_ldap()
+  inc/authldap.class.php:2717                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:706                             AuthLDAP::tryLdapAuth()
+  front/login.php:79                                 Auth->Login()
+2018-11-30 10:36:26 [@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/html.class.php:1198                            
+  inc/html.class.php:1776                            Html::includeHeader()
+  front/login.php:83                                 Html::nullHeader()
+2018-11-30 10:36:27 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-11-30 13:07:30 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-11-30 13:10:45 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-11-30 14:04:30 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-11-30 14:05:47 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-11-30 14:06:07 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-11-30 15:47:34 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 07:35:21 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 07:45:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:75               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 07:45:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:77               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 07:45:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:79               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 07:45:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:81               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 07:45:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: usedd
+  Backtrace :
+  plugins/dashboard/front/main.php:532               
+2018-12-03 07:45:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: totald
+  Backtrace :
+  plugins/dashboard/front/main.php:534               
+2018-12-03 07:45:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: titled
+  Backtrace :
+  plugins/dashboard/front/main.php:535               
+2018-12-03 07:45:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/main.php:536               
+2018-12-03 07:45:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...front/graphs/inc/index/grafpie_index.inc.php:88 
+  plugins/dashboard/front/main.php:565               include()
+2018-12-03 07:45:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...front/graphs/inc/index/grafpie_index.inc.php:89 
+  plugins/dashboard/front/main.php:565               include()
+2018-12-03 07:45:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: arr_grfa
+  Backtrace :
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:52 
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 07:45:43 [51@ufaslquticglpip]
+  *** PHP Warning(2): array_values() expects parameter 1 to be array, null given
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:52 array_values()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 07:45:43 [51@ufaslquticglpip]
+  *** PHP Warning(2): implode(): Invalid arguments passed
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:53 implode()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 07:45:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: arr_grfi
+  Backtrace :
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:81 
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 07:45:43 [51@ufaslquticglpip]
+  *** PHP Warning(2): array_values() expects parameter 1 to be array, null given
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:81 array_values()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 07:45:43 [51@ufaslquticglpip]
+  *** PHP Warning(2): implode(): Invalid arguments passed
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:82 implode()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 07:45:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 07:45:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 2
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 07:45:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 3
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 07:45:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 4
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 07:45:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 5
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 07:45:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 6
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 07:48:25 [51@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/index.php:3                       
+  plugins/os/front/index.php:3                       include()
+2018-12-03 07:48:25 [51@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/index.php:3                       
+  plugins/os/front/index.php:3                       include()
+2018-12-03 07:48:34 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:75               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 07:48:34 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:77               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 07:48:34 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:79               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 07:48:34 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:81               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 07:48:34 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: usedd
+  Backtrace :
+  plugins/dashboard/front/main.php:532               
+2018-12-03 07:48:34 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: totald
+  Backtrace :
+  plugins/dashboard/front/main.php:534               
+2018-12-03 07:48:34 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: titled
+  Backtrace :
+  plugins/dashboard/front/main.php:535               
+2018-12-03 07:48:34 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/main.php:536               
+2018-12-03 07:48:34 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: arr_grfa
+  Backtrace :
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:52 
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 07:48:34 [51@ufaslquticglpip]
+  *** PHP Warning(2): array_values() expects parameter 1 to be array, null given
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:52 array_values()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 07:48:34 [51@ufaslquticglpip]
+  *** PHP Warning(2): implode(): Invalid arguments passed
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:53 implode()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 07:48:34 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: arr_grfi
+  Backtrace :
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:81 
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 07:48:34 [51@ufaslquticglpip]
+  *** PHP Warning(2): array_values() expects parameter 1 to be array, null given
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:81 array_values()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 07:48:34 [51@ufaslquticglpip]
+  *** PHP Warning(2): implode(): Invalid arguments passed
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:82 implode()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 07:49:03 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:75               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 07:49:03 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:77               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 07:49:03 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:79               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 07:49:03 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:81               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 07:49:03 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: usedd
+  Backtrace :
+  plugins/dashboard/front/main.php:532               
+2018-12-03 07:49:03 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: totald
+  Backtrace :
+  plugins/dashboard/front/main.php:534               
+2018-12-03 07:49:03 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: titled
+  Backtrace :
+  plugins/dashboard/front/main.php:535               
+2018-12-03 07:49:03 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/main.php:536               
+2018-12-03 07:49:03 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: arr_grfa
+  Backtrace :
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:52 
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 07:49:03 [51@ufaslquticglpip]
+  *** PHP Warning(2): array_values() expects parameter 1 to be array, null given
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:52 array_values()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 07:49:03 [51@ufaslquticglpip]
+  *** PHP Warning(2): implode(): Invalid arguments passed
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:53 implode()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 07:49:03 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: arr_grfi
+  Backtrace :
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:81 
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 07:49:03 [51@ufaslquticglpip]
+  *** PHP Warning(2): array_values() expects parameter 1 to be array, null given
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:81 array_values()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 07:49:03 [51@ufaslquticglpip]
+  *** PHP Warning(2): implode(): Invalid arguments passed
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:82 implode()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 07:50:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:75               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 07:50:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:77               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 07:50:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:79               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 07:50:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:81               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 07:50:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: usedd
+  Backtrace :
+  plugins/dashboard/front/main.php:532               
+2018-12-03 07:50:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: totald
+  Backtrace :
+  plugins/dashboard/front/main.php:534               
+2018-12-03 07:50:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: titled
+  Backtrace :
+  plugins/dashboard/front/main.php:535               
+2018-12-03 07:50:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/main.php:536               
+2018-12-03 07:50:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...front/graphs/inc/index/grafpie_index.inc.php:88 
+  plugins/dashboard/front/main.php:565               include()
+2018-12-03 07:50:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...front/graphs/inc/index/grafpie_index.inc.php:89 
+  plugins/dashboard/front/main.php:565               include()
+2018-12-03 07:50:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: arr_grfa
+  Backtrace :
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:52 
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 07:50:43 [51@ufaslquticglpip]
+  *** PHP Warning(2): array_values() expects parameter 1 to be array, null given
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:52 array_values()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 07:50:43 [51@ufaslquticglpip]
+  *** PHP Warning(2): implode(): Invalid arguments passed
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:53 implode()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 07:50:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: arr_grfi
+  Backtrace :
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:81 
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 07:50:43 [51@ufaslquticglpip]
+  *** PHP Warning(2): array_values() expects parameter 1 to be array, null given
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:81 array_values()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 07:50:43 [51@ufaslquticglpip]
+  *** PHP Warning(2): implode(): Invalid arguments passed
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:82 implode()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 07:50:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 2
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 07:50:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 3
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 07:50:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 4
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 07:50:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 5
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 07:50:43 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 6
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 07:52:19 [51@ufaslquticglpip]
+  *** PHP Warning(2): mkdir(): No such file or directory
+  Backtrace :
+  :                                                  
+  inc/toolbox.class.php:1386                         mkdir()
+  inc/config.class.php:2392                          Toolbox::testWriteAccessToDirectory()
+  inc/config.class.php:1849                          Config::checkWriteAccessToDirs()
+  inc/config.class.php:2151                          Config->showSystemInformations()
+  inc/commonglpi.class.php:482                       Config::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+Test
+2018-12-03 07:52:19 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 07:52:44 [51@ufaslquticglpip]
+  *** PHP Warning(2): mkdir(): No such file or directory
+  Backtrace :
+  :                                                  
+  inc/toolbox.class.php:1386                         mkdir()
+  inc/config.class.php:2392                          Toolbox::testWriteAccessToDirectory()
+  inc/config.class.php:1849                          Config::checkWriteAccessToDirs()
+  inc/config.class.php:2151                          Config->showSystemInformations()
+  inc/commonglpi.class.php:482                       Config::displayTabContentForItem()
+  inc/commonglpi.class.php:449                       CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+Test
+2018-12-03 07:52:44 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 07:56:58 [51@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 08:00:12 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:75               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 08:00:12 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:77               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 08:00:12 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:79               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 08:00:12 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:81               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 08:00:12 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: usedd
+  Backtrace :
+  plugins/dashboard/front/main.php:532               
+2018-12-03 08:00:12 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: totald
+  Backtrace :
+  plugins/dashboard/front/main.php:534               
+2018-12-03 08:00:12 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: titled
+  Backtrace :
+  plugins/dashboard/front/main.php:535               
+2018-12-03 08:00:12 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/main.php:536               
+2018-12-03 08:00:12 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...front/graphs/inc/index/grafpie_index.inc.php:88 
+  plugins/dashboard/front/main.php:565               include()
+2018-12-03 08:00:12 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...front/graphs/inc/index/grafpie_index.inc.php:89 
+  plugins/dashboard/front/main.php:565               include()
+2018-12-03 08:00:12 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: arr_grfa
+  Backtrace :
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:52 
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 08:00:12 [51@ufaslquticglpip]
+  *** PHP Warning(2): array_values() expects parameter 1 to be array, null given
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:52 array_values()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 08:00:12 [51@ufaslquticglpip]
+  *** PHP Warning(2): implode(): Invalid arguments passed
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:53 implode()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 08:00:12 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: arr_grfi
+  Backtrace :
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:81 
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 08:00:12 [51@ufaslquticglpip]
+  *** PHP Warning(2): array_values() expects parameter 1 to be array, null given
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:81 array_values()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 08:00:12 [51@ufaslquticglpip]
+  *** PHP Warning(2): implode(): Invalid arguments passed
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:82 implode()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 08:00:13 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 2
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 08:00:13 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 3
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 08:00:13 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 4
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 08:00:13 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 5
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 08:00:13 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 6
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 08:00:21 [51@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/index.php:3                       
+  plugins/os/front/index.php:3                       include()
+2018-12-03 08:00:21 [51@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/index.php:3                       
+  plugins/os/front/index.php:3                       include()
+2018-12-03 08:00:37 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 08:00:37 [@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/config.php:4                      
+  plugins/os/front/config.php:4                      include()
+2018-12-03 08:00:37 [@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/config.php:4                      
+  plugins/os/front/config.php:4                      include()
+2018-12-03 08:00:37 [51@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os.php:9                          
+  plugins/os/front/os.php:9                          include()
+2018-12-03 08:00:37 [51@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os.php:9                          
+  plugins/os/front/os.php:9                          include()
+2018-12-03 08:00:37 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:13                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:00:37 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:16                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:00:37 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:18                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:00:37 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:22                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:00:37 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:27                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:00:44 [51@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/index.php:3                       
+  plugins/os/front/index.php:3                       include()
+2018-12-03 08:00:44 [51@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/index.php:3                       
+  plugins/os/front/index.php:3                       include()
+2018-12-03 08:03:52 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:75               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 08:03:52 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:77               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 08:03:52 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:79               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 08:03:52 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:81               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 08:03:52 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: usedd
+  Backtrace :
+  plugins/dashboard/front/main.php:532               
+2018-12-03 08:03:52 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: totald
+  Backtrace :
+  plugins/dashboard/front/main.php:534               
+2018-12-03 08:03:52 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: titled
+  Backtrace :
+  plugins/dashboard/front/main.php:535               
+2018-12-03 08:03:52 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/main.php:536               
+2018-12-03 08:03:52 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...front/graphs/inc/index/grafpie_index.inc.php:88 
+  plugins/dashboard/front/main.php:565               include()
+2018-12-03 08:03:52 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...front/graphs/inc/index/grafpie_index.inc.php:89 
+  plugins/dashboard/front/main.php:565               include()
+2018-12-03 08:03:52 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: arr_grfa
+  Backtrace :
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:52 
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 08:03:52 [51@ufaslquticglpip]
+  *** PHP Warning(2): array_values() expects parameter 1 to be array, null given
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:52 array_values()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 08:03:52 [51@ufaslquticglpip]
+  *** PHP Warning(2): implode(): Invalid arguments passed
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:53 implode()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 08:03:52 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: arr_grfi
+  Backtrace :
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:81 
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 08:03:52 [51@ufaslquticglpip]
+  *** PHP Warning(2): array_values() expects parameter 1 to be array, null given
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:81 array_values()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 08:03:52 [51@ufaslquticglpip]
+  *** PHP Warning(2): implode(): Invalid arguments passed
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:82 implode()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 08:03:52 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 2
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 08:03:52 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 3
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 08:03:52 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 4
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 08:03:52 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 5
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 08:03:52 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 6
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 08:03:58 [51@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/index.php:3                       
+  plugins/os/front/index.php:3                       include()
+2018-12-03 08:03:58 [51@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/index.php:3                       
+  plugins/os/front/index.php:3                       include()
+2018-12-03 08:05:14 [@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/config.php:4                      
+  plugins/os/front/config.php:4                      include()
+2018-12-03 08:05:14 [@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/config.php:4                      
+  plugins/os/front/config.php:4                      include()
+2018-12-03 08:05:14 [51@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os.php:9                          
+  plugins/os/front/os.php:9                          include()
+2018-12-03 08:05:14 [51@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os.php:9                          
+  plugins/os/front/os.php:9                          include()
+2018-12-03 08:05:14 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:13                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:05:14 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:16                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:05:14 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:18                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:05:14 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:22                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:05:14 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:27                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:05:31 [51@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/index.php:3                       
+  plugins/os/front/index.php:3                       include()
+2018-12-03 08:05:31 [51@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/index.php:3                       
+  plugins/os/front/index.php:3                       include()
+2018-12-03 08:05:40 [@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/config.php:4                      
+  plugins/os/front/config.php:4                      include()
+2018-12-03 08:05:40 [@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/config.php:4                      
+  plugins/os/front/config.php:4                      include()
+2018-12-03 08:05:40 [51@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os.php:9                          
+  plugins/os/front/os.php:9                          include()
+2018-12-03 08:05:40 [51@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os.php:9                          
+  plugins/os/front/os.php:9                          include()
+2018-12-03 08:05:40 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:13                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:05:40 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:16                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:05:40 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:18                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:05:40 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:22                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:05:40 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:27                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:06:07 [51@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/index.php:3                       
+  plugins/os/front/index.php:3                       include()
+2018-12-03 08:06:07 [51@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/index.php:3                       
+  plugins/os/front/index.php:3                       include()
+2018-12-03 08:06:15 [@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/config.php:4                      
+  plugins/os/front/config.php:4                      include()
+2018-12-03 08:06:15 [@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/config.php:4                      
+  plugins/os/front/config.php:4                      include()
+2018-12-03 08:06:15 [51@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os.php:9                          
+  plugins/os/front/os.php:9                          include()
+2018-12-03 08:06:15 [51@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os.php:9                          
+  plugins/os/front/os.php:9                          include()
+2018-12-03 08:06:15 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:13                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:06:15 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:16                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:06:15 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:18                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:06:15 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:22                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:06:15 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:27                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:06:47 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 08:08:02 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../inc/includes.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os_cli.php:8                      
+  plugins/os/front/os_cli.php:8                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 08:08:02 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../inc/includes.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os_cli.php:8                      
+  plugins/os/front/os_cli.php:8                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 08:08:02 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os_cli.php:9                      
+  plugins/os/front/os_cli.php:9                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 08:08:02 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os_cli.php:9                      
+  plugins/os/front/os_cli.php:9                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 08:08:48 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/index.php:3                       
+  plugins/os/front/index.php:3                       include()
+2018-12-03 08:08:48 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/index.php:3                       
+  plugins/os/front/index.php:3                       include()
+2018-12-03 08:08:55 [@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/config.php:4                      
+  plugins/os/front/config.php:4                      include()
+2018-12-03 08:08:55 [@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/config.php:4                      
+  plugins/os/front/config.php:4                      include()
+2018-12-03 08:08:55 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os.php:9                          
+  plugins/os/front/os.php:9                          include()
+2018-12-03 08:08:55 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os.php:9                          
+  plugins/os/front/os.php:9                          include()
+2018-12-03 08:08:55 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:13                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:08:55 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:16                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:08:55 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:18                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:08:55 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:22                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:08:55 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:27                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:09:42 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/index.php:3                       
+  plugins/os/front/index.php:3                       include()
+2018-12-03 08:09:42 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/index.php:3                       
+  plugins/os/front/index.php:3                       include()
+2018-12-03 08:10:01 [@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/config.php:4                      
+  plugins/os/front/config.php:4                      include()
+2018-12-03 08:10:01 [@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/config.php:4                      
+  plugins/os/front/config.php:4                      include()
+2018-12-03 08:10:01 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os.php:9                          
+  plugins/os/front/os.php:9                          include()
+2018-12-03 08:10:01 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os.php:9                          
+  plugins/os/front/os.php:9                          include()
+2018-12-03 08:10:01 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:13                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:10:01 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:16                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:10:01 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:18                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:10:01 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:22                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:10:01 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:27                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:10:05 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../inc/includes.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os_cli.php:8                      
+  plugins/os/front/os_cli.php:8                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 08:10:05 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../inc/includes.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os_cli.php:8                      
+  plugins/os/front/os_cli.php:8                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 08:10:05 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os_cli.php:9                      
+  plugins/os/front/os_cli.php:9                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 08:10:05 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os_cli.php:9                      
+  plugins/os/front/os_cli.php:9                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 08:10:16 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/index.php:3                       
+  plugins/os/front/index.php:3                       include()
+2018-12-03 08:10:16 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/index.php:3                       
+  plugins/os/front/index.php:3                       include()
+2018-12-03 08:10:29 [@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/config.php:4                      
+  plugins/os/front/config.php:4                      include()
+2018-12-03 08:10:29 [@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/config.php:4                      
+  plugins/os/front/config.php:4                      include()
+2018-12-03 08:10:29 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os.php:9                          
+  plugins/os/front/os.php:9                          include()
+2018-12-03 08:10:29 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os.php:9                          
+  plugins/os/front/os.php:9                          include()
+2018-12-03 08:10:29 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:13                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:10:29 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:16                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:10:29 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:18                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:10:29 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:22                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:10:29 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins/os/front/configOs.php:27                   
+  plugins/os/front/os.php:10                         include()
+2018-12-03 08:10:54 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 08:11:16 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:75               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 08:11:16 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:77               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 08:11:16 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:79               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 08:11:16 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:81               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 08:11:16 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: usedd
+  Backtrace :
+  plugins/dashboard/front/main.php:532               
+2018-12-03 08:11:16 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: totald
+  Backtrace :
+  plugins/dashboard/front/main.php:534               
+2018-12-03 08:11:16 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: titled
+  Backtrace :
+  plugins/dashboard/front/main.php:535               
+2018-12-03 08:11:16 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/main.php:536               
+2018-12-03 08:11:23 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:75               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 08:11:23 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:77               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 08:11:23 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:79               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 08:11:23 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:81               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 08:11:23 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: usedd
+  Backtrace :
+  plugins/dashboard/front/main.php:532               
+2018-12-03 08:11:23 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: totald
+  Backtrace :
+  plugins/dashboard/front/main.php:534               
+2018-12-03 08:11:23 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: titled
+  Backtrace :
+  plugins/dashboard/front/main.php:535               
+2018-12-03 08:11:23 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/main.php:536               
+2018-12-03 08:11:29 [51@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 08:11:38 [51@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 08:11:42 [51@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/index.php:3                       
+  plugins/os/front/index.php:3                       include()
+2018-12-03 08:11:42 [51@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/index.php:3                       
+  plugins/os/front/index.php:3                       include()
+2018-12-03 08:11:44 [51@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 08:11:49 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:75               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 08:11:49 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:77               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 08:11:49 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:79               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 08:11:49 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:81               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 08:11:49 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: usedd
+  Backtrace :
+  plugins/dashboard/front/main.php:532               
+2018-12-03 08:11:49 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: totald
+  Backtrace :
+  plugins/dashboard/front/main.php:534               
+2018-12-03 08:11:49 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: titled
+  Backtrace :
+  plugins/dashboard/front/main.php:535               
+2018-12-03 08:11:49 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/main.php:536               
+2018-12-03 08:11:52 [51@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 08:11:53 [51@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/index.php:3                       
+  plugins/os/front/index.php:3                       include()
+2018-12-03 08:11:53 [51@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/index.php:3                       
+  plugins/os/front/index.php:3                       include()
+2018-12-03 08:12:01 [51@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 09:03:25 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 09:12:14 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:75               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 09:12:14 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:77               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 09:12:14 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:79               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 09:12:14 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:81               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 09:12:14 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: usedd
+  Backtrace :
+  plugins/dashboard/front/main.php:532               
+2018-12-03 09:12:14 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: totald
+  Backtrace :
+  plugins/dashboard/front/main.php:534               
+2018-12-03 09:12:14 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: titled
+  Backtrace :
+  plugins/dashboard/front/main.php:535               
+2018-12-03 09:12:14 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/main.php:536               
+2018-12-03 09:12:14 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 09:12:14 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 2
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 09:12:14 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 3
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 09:12:14 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 4
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 09:12:14 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 5
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 09:12:14 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 6
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 09:12:14 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 7
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 09:12:22 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:75               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 09:12:22 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:77               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 09:12:22 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:79               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 09:12:22 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:81               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 09:12:22 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: usedd
+  Backtrace :
+  plugins/dashboard/front/main.php:532               
+2018-12-03 09:12:22 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: totald
+  Backtrace :
+  plugins/dashboard/front/main.php:534               
+2018-12-03 09:12:22 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: titled
+  Backtrace :
+  plugins/dashboard/front/main.php:535               
+2018-12-03 09:12:22 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/main.php:536               
+2018-12-03 09:12:23 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 09:12:23 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 2
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 09:12:23 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 3
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 09:12:23 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 4
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 09:12:23 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 5
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 09:12:23 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 6
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 09:12:23 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 7
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 09:29:08 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: central
+  Backtrace :
+  inc/html.class.php:6029                            
+  inc/html.class.php:1468                            Html::displayMainMenu()
+  front/central.php:73                               Html::header()
+2018-12-03 09:29:08 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: central
+  Backtrace :
+  inc/html.class.php:6029                            
+  inc/html.class.php:1468                            Html::displayMainMenu()
+  front/central.php:73                               Html::header()
+2018-12-03 09:29:08 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: central
+  Backtrace :
+  inc/html.class.php:6029                            
+  inc/html.class.php:1468                            Html::displayMainMenu()
+  front/central.php:73                               Html::header()
+2018-12-03 09:29:09 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: central
+  Backtrace :
+  inc/html.class.php:6029                            
+  inc/html.class.php:1468                            Html::displayMainMenu()
+  front/central.php:73                               Html::header()
+2018-12-03 09:29:09 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: central
+  Backtrace :
+  inc/html.class.php:6029                            
+  inc/html.class.php:1468                            Html::displayMainMenu()
+  front/central.php:73                               Html::header()
+2018-12-03 09:29:09 [1049@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: central
+  Backtrace :
+  inc/html.class.php:6029                            
+  inc/html.class.php:1468                            Html::displayMainMenu()
+  front/central.php:73                               Html::header()
+2018-12-03 09:33:49 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 09:33:58 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 09:37:54 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 09:38:18 [51@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 09:38:29 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:75               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 09:38:29 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:77               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 09:38:29 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:79               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 09:38:29 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:81               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 09:38:29 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: usedd
+  Backtrace :
+  plugins/dashboard/front/main.php:532               
+2018-12-03 09:38:29 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: totald
+  Backtrace :
+  plugins/dashboard/front/main.php:534               
+2018-12-03 09:38:29 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: titled
+  Backtrace :
+  plugins/dashboard/front/main.php:535               
+2018-12-03 09:38:29 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/main.php:536               
+2018-12-03 09:38:45 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: sel_ent
+  Backtrace :
+  ...ins/dashboard/front/reports/rel_entidade.php:24 
+2018-12-03 09:38:48 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: cor
+  Backtrace :
+  ...ns/dashboard/front/reports/rel_entidade.php:389 
+2018-12-03 09:39:20 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: sel_tec
+  Backtrace :
+  plugins/dashboard/front/reports/rel_tecnico.php:25 
+2018-12-03 09:39:28 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: total
+  Backtrace :
+  ...ins/dashboard/front/reports/rel_tecnico.php:352 
+2018-12-03 09:39:46 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: id_grp
+  Backtrace :
+  ...ashboard/front/metrics/grafpie_origem.inc.php:3 
+  plugins/dashboard/front/metrics/index.php:297      include()
+2018-12-03 09:39:46 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: id_grp
+  Backtrace :
+  ...oard/front/metrics/grafpie_time_geral.inc.php:3 
+  plugins/dashboard/front/metrics/index.php:321      include()
+2018-12-03 09:39:57 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 3
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 09:39:57 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 4
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 09:39:57 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 5
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 09:39:57 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 6
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 09:39:57 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 7
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:254 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+2018-12-03 09:40:08 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:75               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 09:40:08 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:77               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 09:40:08 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:79               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 09:40:08 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:81               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 09:40:08 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: usedd
+  Backtrace :
+  plugins/dashboard/front/main.php:532               
+2018-12-03 09:40:08 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: totald
+  Backtrace :
+  plugins/dashboard/front/main.php:534               
+2018-12-03 09:40:08 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: titled
+  Backtrace :
+  plugins/dashboard/front/main.php:535               
+2018-12-03 09:40:08 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/main.php:536               
+2018-12-03 09:43:57 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: person_id
+  Backtrace :
+  inc/user.class.php:2033                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 09:43:57 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_banner
+  Backtrace :
+  inc/user.class.php:2045                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 09:43:57 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_puesto
+  Backtrace :
+  inc/user.class.php:2051                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 09:43:57 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: val_correo
+  Backtrace :
+  inc/user.class.php:2089                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 09:43:57 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: department
+  Backtrace :
+  inc/user.class.php:2117                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 09:43:57 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_cedula
+  Backtrace :
+  inc/user.class.php:2146                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 09:43:57 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: telefono_banner
+  Backtrace :
+  inc/user.class.php:2181                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 09:43:57 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: ext_banner
+  Backtrace :
+  inc/user.class.php:2201                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 09:56:42 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 10:24:08 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4463                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:24:08 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4465                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:24:08 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3830                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:24:08 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3946                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:26:31 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4463                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:26:31 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4465                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:26:31 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3830                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:26:31 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3946                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:27:15 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4463                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:27:15 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4465                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:27:15 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3830                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:27:15 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3946                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:44:36 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4463                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:44:36 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4465                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:44:36 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3830                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:44:36 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3946                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:47:44 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4463                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:47:44 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4465                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:47:44 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3830                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:47:44 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3946                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:51:25 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 10:54:08 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 10:54:51 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: person_id
+  Backtrace :
+  inc/user.class.php:2033                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:54:51 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_banner
+  Backtrace :
+  inc/user.class.php:2045                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:54:51 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_puesto
+  Backtrace :
+  inc/user.class.php:2051                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:54:51 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: val_correo
+  Backtrace :
+  inc/user.class.php:2089                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:54:51 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: department
+  Backtrace :
+  inc/user.class.php:2117                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:54:51 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_cedula
+  Backtrace :
+  inc/user.class.php:2146                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:54:51 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: telefono_banner
+  Backtrace :
+  inc/user.class.php:2181                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:54:51 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: ext_banner
+  Backtrace :
+  inc/user.class.php:2201                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:58:39 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: person_id
+  Backtrace :
+  inc/user.class.php:2033                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:58:39 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_banner
+  Backtrace :
+  inc/user.class.php:2045                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:58:39 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_puesto
+  Backtrace :
+  inc/user.class.php:2051                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:58:39 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: val_correo
+  Backtrace :
+  inc/user.class.php:2089                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:58:39 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: department
+  Backtrace :
+  inc/user.class.php:2117                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:58:39 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_cedula
+  Backtrace :
+  inc/user.class.php:2146                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:58:39 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: telefono_banner
+  Backtrace :
+  inc/user.class.php:2181                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:58:39 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: ext_banner
+  Backtrace :
+  inc/user.class.php:2201                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:59:13 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: person_id
+  Backtrace :
+  inc/user.class.php:2033                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:59:13 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_banner
+  Backtrace :
+  inc/user.class.php:2045                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:59:13 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_puesto
+  Backtrace :
+  inc/user.class.php:2051                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:59:13 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: val_correo
+  Backtrace :
+  inc/user.class.php:2089                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:59:13 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: department
+  Backtrace :
+  inc/user.class.php:2117                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:59:13 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_cedula
+  Backtrace :
+  inc/user.class.php:2146                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:59:13 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: telefono_banner
+  Backtrace :
+  inc/user.class.php:2181                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 10:59:13 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: ext_banner
+  Backtrace :
+  inc/user.class.php:2201                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:04:53 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: person_id
+  Backtrace :
+  inc/user.class.php:2033                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:04:53 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_banner
+  Backtrace :
+  inc/user.class.php:2045                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:04:53 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_puesto
+  Backtrace :
+  inc/user.class.php:2051                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:04:53 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: val_correo
+  Backtrace :
+  inc/user.class.php:2089                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:04:53 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: department
+  Backtrace :
+  inc/user.class.php:2117                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:04:53 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_cedula
+  Backtrace :
+  inc/user.class.php:2146                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:04:53 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: telefono_banner
+  Backtrace :
+  inc/user.class.php:2181                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:04:53 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: ext_banner
+  Backtrace :
+  inc/user.class.php:2201                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:05:30 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 11:05:57 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../inc/includes.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os_cli.php:8                      
+  plugins/os/front/os_cli.php:8                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:05:57 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../inc/includes.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os_cli.php:8                      
+  plugins/os/front/os_cli.php:8                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:05:57 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os_cli.php:9                      
+  plugins/os/front/os_cli.php:9                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:05:57 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os_cli.php:9                      
+  plugins/os/front/os_cli.php:9                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:06:16 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../inc/includes.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os_cli.php:8                      
+  plugins/os/front/os_cli.php:8                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  inc/commonglpi.class.php:449                       CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:06:16 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../inc/includes.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os_cli.php:8                      
+  plugins/os/front/os_cli.php:8                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  inc/commonglpi.class.php:449                       CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:06:16 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os_cli.php:9                      
+  plugins/os/front/os_cli.php:9                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  inc/commonglpi.class.php:449                       CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:06:16 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os_cli.php:9                      
+  plugins/os/front/os_cli.php:9                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  inc/commonglpi.class.php:449                       CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:06:26 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 11:08:00 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../inc/includes.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os_cli.php:8                      
+  plugins/os/front/os_cli.php:8                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:08:00 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../inc/includes.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os_cli.php:8                      
+  plugins/os/front/os_cli.php:8                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:08:00 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os_cli.php:9                      
+  plugins/os/front/os_cli.php:9                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:08:00 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os_cli.php:9                      
+  plugins/os/front/os_cli.php:9                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:10:22 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../inc/includes.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os_cli.php:8                      
+  plugins/os/front/os_cli.php:8                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:10:22 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../inc/includes.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os_cli.php:8                      
+  plugins/os/front/os_cli.php:8                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:10:22 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os_cli.php:9                      
+  plugins/os/front/os_cli.php:9                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:10:22 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os_cli.php:9                      
+  plugins/os/front/os_cli.php:9                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()

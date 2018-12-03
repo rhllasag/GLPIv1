@@ -241,10 +241,15 @@ if (!file_exists(GLPI_CONFIG_DIR . "/config_db.php")) {
 	        "Copyright (C) 2003 - 2015 INDEPNET Development Team";
 	   echo "</a></div>\n"; 
 	?>       
-        
+
 </div>
 <script type="text/javascript">
-
 </script>
+
+
+<link href="https://snatchbot.me/sdk/webchat.css" rel="stylesheet" type="text/css"><script src="https://snatchbot.me/sdk/webchat.min.js"></script><script> Init('?botID=37487&appID=webchat', 600, 600, 'https://dvgpba5hywmpo.cloudfront.net/media/image/Wvu2nu6ImZfhqCcKjrMDQXN4J', 'bubble', '#1481A9', 90, 90, 62.99999999999999, '', '1', '#FFFFFF', 0); /* for authentication of its users, you can define your userID (add &userID={login}) */ </script>
+                                                                      
 </body>
+
+                        
 </html>
