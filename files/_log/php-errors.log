@@ -17826,3 +17826,1150 @@ Test
   plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
   inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
   ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:55:48 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../inc/includes.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os_cli.php:8                      
+  plugins/os/front/os_cli.php:8                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:55:48 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../inc/includes.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os_cli.php:8                      
+  plugins/os/front/os_cli.php:8                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:55:48 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os_cli.php:9                      
+  plugins/os/front/os_cli.php:9                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:55:48 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os_cli.php:9                      
+  plugins/os/front/os_cli.php:9                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:57:05 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../inc/includes.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os_cli.php:8                      
+  plugins/os/front/os_cli.php:8                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:57:05 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../inc/includes.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os_cli.php:8                      
+  plugins/os/front/os_cli.php:8                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:57:05 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os_cli.php:9                      
+  plugins/os/front/os_cli.php:9                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 11:57:05 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os_cli.php:9                      
+  plugins/os/front/os_cli.php:9                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 12:01:00 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../inc/includes.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os_cli.php:8                      
+  plugins/os/front/os_cli.php:8                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 12:01:00 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../inc/includes.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os_cli.php:8                      
+  plugins/os/front/os_cli.php:8                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 12:01:00 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os_cli.php:9                      
+  plugins/os/front/os_cli.php:9                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 12:01:00 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os_cli.php:9                      
+  plugins/os/front/os_cli.php:9                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 12:04:34 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../inc/includes.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os_cli.php:8                      
+  plugins/os/front/os_cli.php:8                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 12:04:34 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../inc/includes.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os_cli.php:8                      
+  plugins/os/front/os_cli.php:8                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 12:04:34 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os_cli.php:9                      
+  plugins/os/front/os_cli.php:9                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 12:04:34 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os_cli.php:9                      
+  plugins/os/front/os_cli.php:9                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 12:04:35 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../inc/includes.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os_cli.php:8                      
+  plugins/os/front/os_cli.php:8                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  inc/commonglpi.class.php:449                       CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 12:04:35 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../inc/includes.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os_cli.php:8                      
+  plugins/os/front/os_cli.php:8                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  inc/commonglpi.class.php:449                       CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 12:04:35 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os_cli.php:9                      
+  plugins/os/front/os_cli.php:9                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  inc/commonglpi.class.php:449                       CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 12:04:35 [1049@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os_cli.php:9                      
+  plugins/os/front/os_cli.php:9                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  inc/commonglpi.class.php:449                       CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 12:05:14 [51@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../inc/includes.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os_cli.php:8                      
+  plugins/os/front/os_cli.php:8                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 12:05:14 [51@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../inc/includes.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os_cli.php:8                      
+  plugins/os/front/os_cli.php:8                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 12:05:14 [51@ufaslquticglpip]
+  *** PHP Warning(2): include(../../../config/config.php): failed to open stream: No such file or directory
+  Backtrace :
+  plugins/os/front/os_cli.php:9                      
+  plugins/os/front/os_cli.php:9                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 12:05:14 [51@ufaslquticglpip]
+  *** PHP Warning(2): include(): Failed opening '../../../config/config.php' for inclusion (include_path='.:/usr/share/php')
+  Backtrace :
+  plugins/os/front/os_cli.php:9                      
+  plugins/os/front/os_cli.php:9                      include()
+  plugins/os/setup.php:56                            include()
+  plugins/os/setup.php:40                            PluginOsConfig->showFormDisplay()
+  inc/commonglpi.class.php:482                       PluginOsConfig::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 14:12:46 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 14:13:00 [@ufaslquticglpip]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:234                             ldap_bind()
+  inc/authldap.class.php:2653                        Auth->connection_ldap()
+  inc/authldap.class.php:2717                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:706                             AuthLDAP::tryLdapAuth()
+  front/login.php:79                                 Auth->Login()
+2018-12-03 14:13:00 [@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/html.class.php:1198                            
+  inc/html.class.php:1776                            Html::includeHeader()
+  front/login.php:83                                 Html::nullHeader()
+2018-12-03 14:13:02 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 18:55:14 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 18:55:14 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 18:56:49 [@ufaslquticglpip]
+  *** PHP Warning(2): imap_open(): Couldn't open stream {10.1.1.116:25}}
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:187                             imap_open()
+  inc/authmail.class.php:298                         Auth->connection_imap()
+  inc/authmail.class.php:329                         AuthMail::mailAuth()
+  inc/auth.class.php:732                             AuthMail::tryMailAuth()
+  front/login.php:79                                 Auth->Login()
+2018-12-03 18:56:49 [@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/html.class.php:1198                            
+  inc/html.class.php:1776                            Html::includeHeader()
+  front/login.php:83                                 Html::nullHeader()
+2018-12-03 18:56:49 [@ufaslquticglpip]
+  *** PHP Notice(8): Unknown: [CLOSED] IMAP connection broken (server response) (errflg=2)
+  Backtrace :
+  :                                                  
+2018-12-03 18:56:49 [@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/html.class.php:1198                            
+  inc/html.class.php:1776                            Html::includeHeader()
+  inc/html.class.php:851                             Html::nullHeader()
+  inc/session.class.php:1210                         Html::displayErrorAndDie()
+  inc/includes.php:171                               Session::checkCSRF()
+  front/login.php:38                                 include()
+2018-12-03 19:52:31 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 20:48:02 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 21:31:18 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 21:32:13 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4463                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 21:32:13 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4465                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 21:32:13 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3830                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 21:32:13 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3946                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 21:32:13 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:4042                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 21:32:58 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4463                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 21:32:58 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4465                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 21:32:58 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3830                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 21:32:58 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3946                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 21:32:58 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:4042                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 21:36:32 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4463                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 21:36:32 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4465                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 21:36:33 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3830                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 21:36:33 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3946                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 21:36:33 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:4042                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 21:36:51 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-03 21:39:44 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: person_id
+  Backtrace :
+  inc/user.class.php:2033                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 21:39:44 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_banner
+  Backtrace :
+  inc/user.class.php:2045                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 21:39:44 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_puesto
+  Backtrace :
+  inc/user.class.php:2051                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 21:39:44 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: val_correo
+  Backtrace :
+  inc/user.class.php:2089                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 21:39:44 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: department
+  Backtrace :
+  inc/user.class.php:2117                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 21:39:44 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: n_cedula
+  Backtrace :
+  inc/user.class.php:2146                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 21:39:44 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: telefono_banner
+  Backtrace :
+  inc/user.class.php:2181                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 21:39:44 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: ext_banner
+  Backtrace :
+  inc/user.class.php:2201                            
+  inc/commonglpi.class.php:472                       User->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-03 21:42:42 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:75               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 21:42:42 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:77               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 21:42:42 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:79               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 21:42:42 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:81               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 21:42:42 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: usedd
+  Backtrace :
+  plugins/dashboard/front/main.php:532               
+2018-12-03 21:42:42 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: totald
+  Backtrace :
+  plugins/dashboard/front/main.php:534               
+2018-12-03 21:42:42 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: titled
+  Backtrace :
+  plugins/dashboard/front/main.php:535               
+2018-12-03 21:42:42 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/main.php:536               
+2018-12-03 21:42:42 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...front/graphs/inc/index/grafpie_index.inc.php:88 
+  plugins/dashboard/front/main.php:565               include()
+2018-12-03 21:42:42 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...front/graphs/inc/index/grafpie_index.inc.php:89 
+  plugins/dashboard/front/main.php:565               include()
+2018-12-03 21:42:42 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: arr_grfa
+  Backtrace :
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:52 
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 21:42:42 [2@ufaslquticglpip]
+  *** PHP Warning(2): array_values() expects parameter 1 to be array, null given
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:52 array_values()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 21:42:42 [2@ufaslquticglpip]
+  *** PHP Warning(2): implode(): Invalid arguments passed
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:53 implode()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 21:42:42 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: arr_grfi
+  Backtrace :
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:81 
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 21:42:42 [2@ufaslquticglpip]
+  *** PHP Warning(2): array_values() expects parameter 1 to be array, null given
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:81 array_values()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 21:42:42 [2@ufaslquticglpip]
+  *** PHP Warning(2): implode(): Invalid arguments passed
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:82 implode()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 21:42:53 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:75               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 21:42:53 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:77               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 21:42:53 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:79               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 21:42:53 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:81               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 21:42:53 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: usedd
+  Backtrace :
+  plugins/dashboard/front/main.php:532               
+2018-12-03 21:42:53 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: totald
+  Backtrace :
+  plugins/dashboard/front/main.php:534               
+2018-12-03 21:42:53 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: titled
+  Backtrace :
+  plugins/dashboard/front/main.php:535               
+2018-12-03 21:42:53 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/main.php:536               
+2018-12-03 21:42:53 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...front/graphs/inc/index/grafpie_index.inc.php:88 
+  plugins/dashboard/front/main.php:565               include()
+2018-12-03 21:42:53 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...front/graphs/inc/index/grafpie_index.inc.php:89 
+  plugins/dashboard/front/main.php:565               include()
+2018-12-03 21:42:53 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: arr_grfa
+  Backtrace :
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:52 
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 21:42:53 [2@ufaslquticglpip]
+  *** PHP Warning(2): array_values() expects parameter 1 to be array, null given
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:52 array_values()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 21:42:53 [2@ufaslquticglpip]
+  *** PHP Warning(2): implode(): Invalid arguments passed
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:53 implode()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 21:42:53 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: arr_grfi
+  Backtrace :
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:81 
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 21:42:53 [2@ufaslquticglpip]
+  *** PHP Warning(2): array_values() expects parameter 1 to be array, null given
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:81 array_values()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 21:42:53 [2@ufaslquticglpip]
+  *** PHP Warning(2): implode(): Invalid arguments passed
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:82 implode()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 21:43:08 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:75               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 21:43:08 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:77               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 21:43:08 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:79               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 21:43:08 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/sh/df.php:81               
+  plugins/dashboard/front/main.php:524               include()
+2018-12-03 21:43:08 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: usedd
+  Backtrace :
+  plugins/dashboard/front/main.php:532               
+2018-12-03 21:43:08 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: totald
+  Backtrace :
+  plugins/dashboard/front/main.php:534               
+2018-12-03 21:43:08 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: titled
+  Backtrace :
+  plugins/dashboard/front/main.php:535               
+2018-12-03 21:43:08 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: udisk
+  Backtrace :
+  plugins/dashboard/front/main.php:536               
+2018-12-03 21:43:08 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...front/graphs/inc/index/grafpie_index.inc.php:88 
+  plugins/dashboard/front/main.php:565               include()
+2018-12-03 21:43:08 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...front/graphs/inc/index/grafpie_index.inc.php:89 
+  plugins/dashboard/front/main.php:565               include()
+2018-12-03 21:43:08 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: arr_grfa
+  Backtrace :
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:52 
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 21:43:08 [2@ufaslquticglpip]
+  *** PHP Warning(2): array_values() expects parameter 1 to be array, null given
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:52 array_values()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 21:43:08 [2@ufaslquticglpip]
+  *** PHP Warning(2): implode(): Invalid arguments passed
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:53 implode()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 21:43:08 [2@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: arr_grfi
+  Backtrace :
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:81 
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 21:43:08 [2@ufaslquticglpip]
+  *** PHP Warning(2): array_values() expects parameter 1 to be array, null given
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:81 array_values()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-03 21:43:08 [2@ufaslquticglpip]
+  *** PHP Warning(2): implode(): Invalid arguments passed
+  Backtrace :
+  :                                                  
+  ...nt/graphs/inc/index/grafcol_setedias.inc.php:82 implode()
+  plugins/dashboard/front/main.php:580               include()
+2018-12-04 04:28:00 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 04:28:10 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 04:28:31 [@ufaslquticglpip]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:234                             ldap_bind()
+  inc/authldap.class.php:2653                        Auth->connection_ldap()
+  inc/authldap.class.php:2717                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:706                             AuthLDAP::tryLdapAuth()
+  front/login.php:79                                 Auth->Login()
+2018-12-04 04:28:31 [@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/html.class.php:1198                            
+  inc/html.class.php:1776                            Html::includeHeader()
+  front/login.php:83                                 Html::nullHeader()
+2018-12-04 04:28:35 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 04:29:07 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4463                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 04:29:07 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4465                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 04:29:07 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3830                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 04:29:07 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3946                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 04:29:07 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:4042                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 05:03:50 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4463                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 05:03:50 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4465                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 05:03:50 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3830                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 05:03:50 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3946                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 05:03:50 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:4042                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 05:04:31 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4463                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 05:04:31 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4465                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 05:04:31 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3830                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 05:04:31 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3946                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 05:04:31 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:4042                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 05:05:24 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4463                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 05:05:24 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4465                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 05:05:24 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3830                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 05:05:24 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3946                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 05:05:24 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:4042                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 05:06:13 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 05:45:00 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 05:52:57 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined variable: profiles
+  Backtrace :
+  inc/profile.class.php:2585                         
+  inc/profile_user.class.php:145                     Profile::dropdownUnder()
+  inc/profile_user.class.php:1008                    Profile_User::showForUser()
+  inc/commonglpi.class.php:482                       Profile_User::displayTabContentForItem()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 05:53:06 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 06:49:13 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 06:49:21 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 06:52:03 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 06:52:48 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4463                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 06:52:48 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4465                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 06:52:48 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3830                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 06:52:48 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3946                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 06:54:13 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4463                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 06:54:13 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4465                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 06:54:13 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3830                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 06:54:13 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3946                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 06:57:45 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 07:01:30 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 07:01:38 [@ufaslquticglpip]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:234                             ldap_bind()
+  inc/authldap.class.php:2653                        Auth->connection_ldap()
+  inc/authldap.class.php:2717                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:706                             AuthLDAP::tryLdapAuth()
+  front/login.php:79                                 Auth->Login()
+2018-12-04 07:01:38 [@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/html.class.php:1198                            
+  inc/html.class.php:1776                            Html::includeHeader()
+  front/login.php:83                                 Html::nullHeader()
+2018-12-04 07:01:40 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 07:01:48 [@ufaslquticglpip]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:234                             ldap_bind()
+  inc/authldap.class.php:2653                        Auth->connection_ldap()
+  inc/authldap.class.php:2717                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:706                             AuthLDAP::tryLdapAuth()
+  front/login.php:79                                 Auth->Login()
+2018-12-04 07:01:48 [@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/html.class.php:1198                            
+  inc/html.class.php:1776                            Html::includeHeader()
+  front/login.php:83                                 Html::nullHeader()
+2018-12-04 07:01:50 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 07:02:55 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 07:06:15 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 07:45:43 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 08:00:22 [51@ufaslquticglpip]
+  *** PHP Warning(2): require(vendor/autoload.php): failed to open stream: No such file or directory
+  Backtrace :
+  inc/notificationmailing.class.php:40               
+  inc/notificationmailing.class.php:40               require()
+  inc/autoload.function.php:356                      include_once()
+  :                                                  glpi_autoload()
+  ajax/uemailUpdate.php:97                           spl_autoload_call()
+2018-12-04 08:00:22 [51@ufaslquticglpip]
+  *** PHP Warning(2): require(vendor/autoload.php): failed to open stream: No such file or directory
+  Backtrace :
+  inc/notificationmailing.class.php:40               
+  inc/notificationmailing.class.php:40               require()
+  inc/autoload.function.php:356                      include_once()
+  :                                                  glpi_autoload()
+  ajax/uemailUpdate.php:97                           spl_autoload_call()
+2018-12-04 08:26:00 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 08:26:40 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 08:29:32 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 08:30:24 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 08:32:30 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 08:32:54 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4463                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 08:32:54 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  inc/ticket.class.php:4465                          
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 08:32:54 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3830                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 08:32:54 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:3946                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 08:32:54 [51@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: entity_restrict
+  Backtrace :
+  inc/commonitilobject.class.php:3538                
+  inc/commonitilobject.class.php:4042                CommonITILObject->showActorAddFormOnCreate()
+  inc/ticket.class.php:4868                          CommonITILObject->showActorsPartForm()
+  inc/commonglpi.class.php:472                       Ticket->showForm()
+  ajax/common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-12-04 08:34:46 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 08:55:42 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 09:49:40 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 10:08:46 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 10:08:54 [@ufaslquticglpip]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:234                             ldap_bind()
+  inc/authldap.class.php:2653                        Auth->connection_ldap()
+  inc/authldap.class.php:2717                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:706                             AuthLDAP::tryLdapAuth()
+  front/login.php:79                                 Auth->Login()
+2018-12-04 10:08:54 [@ufaslquticglpip]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/html.class.php:1198                            
+  inc/html.class.php:1776                            Html::includeHeader()
+  front/login.php:83                                 Html::nullHeader()
+2018-12-04 10:08:56 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 10:11:52 [51@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 10:14:18 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 10:14:43 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 10:28:02 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 10:37:12 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 10:40:48 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 10:41:21 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 10:48:27 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 11:00:32 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 11:04:20 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 11:12:06 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 11:12:45 [1049@ufaslquticglpip]
+  *** PHP Warning(2): strlen() expects parameter 1 to be string, array given
+  Backtrace :
+  inc/dropdown.class.php:1808                        
+  inc/dropdown.class.php:717                         Dropdown::showFromArray()
+  ajax/uemailUpdate.php:91                           Dropdown::showYesNo()
+2018-12-04 11:23:56 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 11:33:15 [1049@ufaslquticglpip]
+  *** PHP Warning(2): strlen() expects parameter 1 to be string, array given
+  Backtrace :
+  inc/dropdown.class.php:1808                        
+  inc/dropdown.class.php:717                         Dropdown::showFromArray()
+  ajax/uemailUpdate.php:91                           Dropdown::showYesNo()
+2018-12-04 11:34:01 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 11:34:34 [@ufaslquticglpip]
+  From Plugin::getInfo() in /var/www/html/glpi/inc/plugin.class.php line 1373
+  plugin_version_formcreator-2.6.5 method must be defined! 
+2018-12-04 11:35:06 [1049@ufaslquticglpip]
+  *** PHP Warning(2): strlen() expects parameter 1 to be string, array given
+  Backtrace :
+  inc/dropdown.class.php:1808                        
+  inc/dropdown.class.php:717                         Dropdown::showFromArray()
+  ajax/uemailUpdate.php:91                           Dropdown::showYesNo()
+2018-12-04 11:35:16 [1049@ufaslquticglpip]
+  *** PHP Warning(2): strlen() expects parameter 1 to be string, array given
+  Backtrace :
+  inc/dropdown.class.php:1808                        
+  inc/dropdown.class.php:717                         Dropdown::showFromArray()
+  ajax/uemailUpdate.php:91                           Dropdown::showYesNo()

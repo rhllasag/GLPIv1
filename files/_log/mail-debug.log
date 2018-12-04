@@ -2064,4 +2064,478 @@
 2018-07-25 22:45:28 [2@ufaslquticglpip]
 2 - SERVER -> CLIENT: 221 2.0.0 Bye
 2018-07-25 22:45:28 [2@ufaslquticglpip]
+3 - Connection: closed2018-12-04 08:31:46 [51@ufaslquticglpip]
+3 - Connection: opening to 10.1.1.116:25, timeout=300, options=array()2018-12-04 08:31:46 [51@ufaslquticglpip]
+3 - Connection: opened2018-12-04 08:31:46 [51@ufaslquticglpip]
+2 - SERVER -> CLIENT: 220 UFASLQUTICMAILRELAY.espe.int ESMTP Postfix
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: EHLO 10.1.0.61
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+2 - SERVER -> CLIENT: 250-UFASLQUTICMAILRELAY.espe.int
+250-PIPELINING
+250-SIZE 10240000
+250-VRFY
+250-ETRN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250 DSN
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: MAIL FROM:<mavalencia2@espe.edu.ec>
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+2 - SERVER -> CLIENT: 250 2.1.0 Ok
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: RCPT TO:<mavalencia2@espe.edu.ec>
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+2 - SERVER -> CLIENT: 250 2.1.5 Ok
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: DATA
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+2 - SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Date: Tue, 4 Dec 2018 08:31:46 -0500
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: To: Valencia Chora Milton Amable <mavalencia2@espe.edu.ec>
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: From: mavalencia2@espe.edu.ec
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Reply-To: mavalencia2@espe.edu.ec
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Subject: [GLPI #0000113] Nuevo incidente Test m
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Message-ID: <GLPI-113.1543930306.268184518@ufaslquticglpip>
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: X-Mailer: PHPMailer 6.0.5 (https://github.com/PHPMailer/PHPMailer)
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Auto-Submitted: auto-generated
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: X-Auto-Response-Suppress: OOF, DR, NDR, RN, NRN
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: In-Reply-To: <GLPI-Ticket-113>
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: MIME-Version: 1.0
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Content-Type: multipart/alternative;
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 	boundary="b1_0jUwVJzB1ZktDvqWviPkuoP8jjJ3DbFOt6G1UcUAFE8"
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: This is a multi-part message in MIME format.
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: --b1_0jUwVJzB1ZktDvqWviPkuoP8jjJ3DbFOt6G1UcUAFE8
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Content-Type: text/plain; charset=utf-8
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: URL : http://10.1.0.61/glpi//index.php?redirect=ticket_113 
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Tiquete: Descripción
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Título : Test m
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:  Solicitantes : LLASAG ROSERO RAUL HOMERO 
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:  Fecha de apertura : 2018-12-04 08:31
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:  Fecha de cierre : 
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:  Fuente de solicitud : Ventanilla
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Asignado a técnicos : Valencia Chora Milton Amable 
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:  Estado : En curso (asignada)
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Urgencia : Media
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:  Impacto : Media:DOCENTES/ALUMNOS/UNIDADES/CARRERAS/CENTROS DE APOYO
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:  Prioridad : Media
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: No hay categoría asignada 
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:  Descripción : 
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: issdgfghg
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Número de seguimientos : 0
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Número de tarefas : 0
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: -- 
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: HELP DESK ESPE
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Automaticamente generado por GLPI 9.2.1
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: --b1_0jUwVJzB1ZktDvqWviPkuoP8jjJ3DbFOt6G1UcUAFE8
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Content-Type: text/html; charset=utf-8
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Content-Transfer-Encoding: quoted-printable
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"=0A          =
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:               'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><ht=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: ml>=0A                        <head>=0A                         <META http-=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: equiv=3D'Content-Type' content=3D'text/html; charset=3Dutf-8'>=0A          =
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:                <title>[GLPI #0000113] Nuevo incidente Test m</title>=0A    =
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:                      <style type=3D'text/css'>=0A                          =
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:  =0A                         </style>=0A                        </head>=0A =
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:                        <body>=0A<!-- description{ color: inherit; backgroun=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: d: #ebebeb; border-style: solid;border-color: #8d8d8d; border-width: 0px 1p=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: x 1px 0px; }    -->=0A<div></div>=0A<div> URL : <a href=3D"http://10.1.0.61=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: /glpi//index.php?redirect=3Dticket_113">http://10.1.0.61/glpi//index.php?re=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: direct=3Dticket_113</a> </div>=0A<p class=3D"description b"><strong>Tiquete=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: : Descripci=C3=B3n</strong></p>=0A<p><span style=3D"color: #8b8c8f; font-we=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: ight: bold; text-decoration: underline;"> T=C3=ADtulo</span>=C2=A0:Test m <=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: br /> <span style=3D"color: #8b8c8f; font-weight: bold; text-decoration: un=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: derline;"> Solicitantes</span>=C2=A0: LLASAG ROSERO RAUL HOMERO      <br />=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:  <span style=3D"color: #8b8c8f; font-weight: bold; text-decoration: underli=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: ne;"> Fecha de apertura</span>=C2=A0:2018-12-04 08:31 <br /> <span style=3D=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: "color: #8b8c8f; font-weight: bold; text-decoration: underline;"> Fecha de =
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: cierre</span>=C2=A0: <br /> <span style=3D"color: #8b8c8f; font-weight: bol=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: d; text-decoration: underline;"> Fuente de solicitud</span>=C2=A0:Ventanill=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: a<br />  <br />  <span style=3D"color: #8b8c8f; font-weight: bold; text-dec=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: oration: underline;"> Asignado a t=C3=A9cnicos</span>=C2=A0: Valencia Chora=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:  Milton Amable <br /> <span style=3D"color: #8b8c8f; font-weight: bold; tex=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: t-decoration: underline;">Estado </span>=C2=A0: En curso (asignada)<br /> <=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: br /> <span style=3D"color: #8b8c8f; font-weight: bold; text-decoration: un=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: derline;"> Urgencia</span>=C2=A0: Media<br /> <span style=3D"color: #8b8c8f=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: ; font-weight: bold; text-decoration: underline;"> Impacto</span>=C2=A0: Me=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: dia:DOCENTES/ALUMNOS/UNIDADES/CARRERAS/CENTROS DE APOYO<br /> <span style=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: =3D"color: #8b8c8f; font-weight: bold; text-decoration: underline;"> Priori=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: dad</span>=C2=A0: Media <br />     <br />   No hay categor=C3=ADa asignada =
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:     <br /> <span style=3D"color: #8b8c8f; font-weight: bold; text-decoratio=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: n: underline;"> Descripci=C3=B3n</span>=C2=A0: <p>issdgfghg</p></p>=0A<br /=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: ></p>=0A<div class=3D"description b">N=C3=BAmero de seguimientos=C2=A0: 0</=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: div>=0A<p></p>=0A<div class=3D"description b">N=C3=BAmero de tarefas=C2=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: =A0: 0</div>=0A<p></p><br><br>-- =0A<br>HELP DESK ESPE<br>Automaticamente g=
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: enerado por GLPI 9.2.1<br><br>=0A=0A</body></html>
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: --b1_0jUwVJzB1ZktDvqWviPkuoP8jjJ3DbFOt6G1UcUAFE8--
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: .
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+2 - SERVER -> CLIENT: 250 2.0.0 Ok: queued as 93A19C0934
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: QUIT
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+2 - SERVER -> CLIENT: 221 2.0.0 Bye
+2018-12-04 08:31:46 [51@ufaslquticglpip]
+3 - Connection: closed2018-12-04 08:34:57 [51@ufaslquticglpip]
+3 - Connection: opening to 10.1.1.116:25, timeout=300, options=array()2018-12-04 08:34:57 [51@ufaslquticglpip]
+3 - Connection: opened2018-12-04 08:34:57 [51@ufaslquticglpip]
+2 - SERVER -> CLIENT: 220 UFASLQUTICMAILRELAY.espe.int ESMTP Postfix
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: EHLO 10.1.0.61
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+2 - SERVER -> CLIENT: 250-UFASLQUTICMAILRELAY.espe.int
+250-PIPELINING
+250-SIZE 10240000
+250-VRFY
+250-ETRN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250 DSN
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: MAIL FROM:<mavalencia2@espe.edu.ec>
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+2 - SERVER -> CLIENT: 250 2.1.0 Ok
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: RCPT TO:<mavalencia2@espe.edu.ec>
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+2 - SERVER -> CLIENT: 250 2.1.5 Ok
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: DATA
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+2 - SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Date: Tue, 4 Dec 2018 08:34:57 -0500
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: To: Valencia Chora Milton Amable <mavalencia2@espe.edu.ec>
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: From: mavalencia2@espe.edu.ec
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Reply-To: mavalencia2@espe.edu.ec
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Subject: [GLPI #0000114] Nuevo incidente Certificado en ventanilla, ID:
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Message-ID: <GLPI-114.1543930496.895527889@ufaslquticglpip>
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: X-Mailer: PHPMailer 6.0.5 (https://github.com/PHPMailer/PHPMailer)
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Auto-Submitted: auto-generated
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: X-Auto-Response-Suppress: OOF, DR, NDR, RN, NRN
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: In-Reply-To: <GLPI-Ticket-114>
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: MIME-Version: 1.0
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Content-Type: multipart/alternative;
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 	boundary="b1_r1iMY24Y17H3d1EgY1w0qYl3objeZRiIu9T7gsYoU"
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: This is a multi-part message in MIME format.
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: --b1_r1iMY24Y17H3d1EgY1w0qYl3objeZRiIu9T7gsYoU
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Content-Type: text/plain; charset=utf-8
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: URL : http://10.1.0.61/glpi//index.php?redirect=ticket_114 
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Tiquete: Descripción
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Título : Certificado en ventanilla, ID: 
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:  Solicitantes : LLASAG ROSERO RAUL HOMERO 
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:  Fecha de apertura : 2018-12-04 08:34
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:  Fecha de cierre : 
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:  Fuente de solicitud : Ventanilla
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Asignado a técnicos : Valencia Chora Milton Amable 
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:  Estado : En curso (asignada)
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Urgencia : Media
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:  Impacto : Media:DOCENTES/ALUMNOS/UNIDADES/CARRERAS/CENTROS DE APOYO
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:  Prioridad : Media
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: No hay categoría asignada 
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:  Descripción : 
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: DETALLES DE LA SOLICITUD
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: El solicitante ________________________ con número de cédula
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: _____________________ y identificador institucional ID:__________________
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: solicita un Certificado _____(MANUAL o ELABORADO)______________ en la ventanilla
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: de la Unidad de Admisión y Registro. El cual (NO o HA) realizado el pago
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: correspondiente del valor de dicho documento. Motivos por los que se procede a
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: la realización del ticket respectivo para dicho trámite.
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Número de seguimientos : 0
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Número de tarefas : 0
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: -- 
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: HELP DESK ESPE
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Automaticamente generado por GLPI 9.2.1
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: --b1_r1iMY24Y17H3d1EgY1w0qYl3objeZRiIu9T7gsYoU
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Content-Type: text/html; charset=utf-8
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: Content-Transfer-Encoding: quoted-printable
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"=0A          =
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:               'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><ht=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: ml>=0A                        <head>=0A                         <META http-=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: equiv=3D'Content-Type' content=3D'text/html; charset=3Dutf-8'>=0A          =
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:                <title>[GLPI #0000114] Nuevo incidente Certificado en ventan=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: illa, ID: </title>=0A                         <style type=3D'text/css'>=0A =
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:                           =0A                         </style>=0A          =
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:               </head>=0A                        <body>=0A<!-- description{ =
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: color: inherit; background: #ebebeb; border-style: solid;border-color: #8d8=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: d8d; border-width: 0px 1px 1px 0px; }    -->=0A<div></div>=0A<div> URL : <a=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:  href=3D"http://10.1.0.61/glpi//index.php?redirect=3Dticket_114">http://10.=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 1.0.61/glpi//index.php?redirect=3Dticket_114</a> </div>=0A<p class=3D"descr=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: iption b"><strong>Tiquete: Descripci=C3=B3n</strong></p>=0A<p><span style=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: =3D"color: #8b8c8f; font-weight: bold; text-decoration: underline;"> T=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: =C3=ADtulo</span>=C2=A0:Certificado en ventanilla, ID:  <br /> <span style=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: =3D"color: #8b8c8f; font-weight: bold; text-decoration: underline;"> Solici=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: tantes</span>=C2=A0: LLASAG ROSERO RAUL HOMERO      <br /> <span style=3D"c=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: olor: #8b8c8f; font-weight: bold; text-decoration: underline;"> Fecha de ap=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: ertura</span>=C2=A0:2018-12-04 08:34 <br /> <span style=3D"color: #8b8c8f; =
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: font-weight: bold; text-decoration: underline;"> Fecha de cierre</span>=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: =C2=A0: <br /> <span style=3D"color: #8b8c8f; font-weight: bold; text-decor=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: ation: underline;"> Fuente de solicitud</span>=C2=A0:Ventanilla<br />  <br =
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: />  <span style=3D"color: #8b8c8f; font-weight: bold; text-decoration: unde=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: rline;"> Asignado a t=C3=A9cnicos</span>=C2=A0: Valencia Chora Milton Amabl=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: e <br /> <span style=3D"color: #8b8c8f; font-weight: bold; text-decoration:=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:  underline;">Estado </span>=C2=A0: En curso (asignada)<br /> <br /> <span s=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: tyle=3D"color: #8b8c8f; font-weight: bold; text-decoration: underline;"> Ur=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: gencia</span>=C2=A0: Media<br /> <span style=3D"color: #8b8c8f; font-weight=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: : bold; text-decoration: underline;"> Impacto</span>=C2=A0: Media:DOCENTES/=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: ALUMNOS/UNIDADES/CARRERAS/CENTROS DE APOYO<br /> <span style=3D"color: #8b8=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: c8f; font-weight: bold; text-decoration: underline;"> Prioridad</span>=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: =C2=A0: Media <br />     <br />   No hay categor=C3=ADa asignada     <br />=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER:  <span style=3D"color: #8b8c8f; font-weight: bold; text-decoration: underli=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: ne;"> Descripci=C3=B3n</span>=C2=A0: <p>DETALLES DE LA SOLICITUD</p><p>El s=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: olicitante ________________________ con n=C3=BAmero de c=C3=A9dula ________=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: _____________ y identificador institucional ID:__________________ solicita =
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: un Certificado _____(MANUAL o ELABORADO)______________ en la ventanilla de =
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: la Unidad de Admisi=C3=B3n y Registro. El cual (NO o HA) realizado el pago =
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: correspondiente del valor de dicho documento. Motivos por los que se proced=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: e a la realizaci=C3=B3n del ticket respectivo para dicho tr=C3=A1mite.</p><=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: /p>=0A<br /></p>=0A<div class=3D"description b">N=C3=BAmero de seguimientos=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: =C2=A0: 0</div>=0A<p></p>=0A<div class=3D"description b">N=C3=BAmero de tar=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: efas=C2=A0: 0</div>=0A<p></p><br><br>-- =0A<br>HELP DESK ESPE<br>Automatica=
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: mente generado por GLPI 9.2.1<br><br>=0A=0A</body></html>
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: --b1_r1iMY24Y17H3d1EgY1w0qYl3objeZRiIu9T7gsYoU--
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: 
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: .
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+2 - SERVER -> CLIENT: 250 2.0.0 Ok: queued as 3F8ECC0934
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+1 - CLIENT -> SERVER: QUIT
+2018-12-04 08:34:57 [51@ufaslquticglpip]
+2 - SERVER -> CLIENT: 221 2.0.0 Bye
+2018-12-04 08:34:57 [51@ufaslquticglpip]
 3 - Connection: closed

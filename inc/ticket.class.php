@@ -812,7 +812,7 @@ class Ticket extends CommonITILObject {
                $ong[3] = __('Satisfaction');
             }
             if ($item->canView()) {
-               $ong[4] = __('Statistics');
+               //$ong[4] = __('Statistics');
             }
             return $ong;
 
@@ -897,9 +897,9 @@ class Ticket extends CommonITILObject {
       }
       $this->addStandardTab(__CLASS__, $ong, $options);
       $this->addStandardTab('TicketValidation', $ong, $options);
-      $this->addStandardTab('KnowbaseItem_Item', $ong, $options);
-      $this->addStandardTab('Item_Ticket', $ong, $options);
-      $this->addStandardTab('TicketCost', $ong, $options);
+      //$this->addStandardTab('KnowbaseItem_Item', $ong, $options);
+      //$this->addStandardTab('Item_Ticket', $ong, $options);
+      //$this->addStandardTab('TicketCost', $ong, $options);
       $this->addStandardTab('Projecttask_Ticket', $ong, $options);
       $this->addStandardTab('Problem_Ticket', $ong, $options);
       $this->addStandardTab('Change_Ticket', $ong, $options);
@@ -979,7 +979,7 @@ class Ticket extends CommonITILObject {
       $ct->cleanDBonItemDelete(__CLASS__, $this->fields['id']);
 
       $ip = new Item_Ticket();
-      $ip->cleanDBonItemDelete('Ticket', $this->fields['id']);
+      //$ip->cleanDBonItemDelete('Ticket', $this->fields['id']);
 
       parent::cleanDBonPurge();
 
@@ -2671,7 +2671,7 @@ class Ticket extends CommonITILObject {
             $kb_item = new KnowbaseItem();
             $kb_item->getEmpty();
             if ($kb_item->canViewItem()) {
-               $actions['KnowbaseItem_Item'.MassiveAction::CLASS_ACTION_SEPARATOR.'add'] = _x('button', 'Link knowledgebase article');
+               //$actions['KnowbaseItem_Item'.MassiveAction::CLASS_ACTION_SEPARATOR.'add'] = _x('button', 'Link knowledgebase article');
             }
          }
       }
@@ -3338,7 +3338,7 @@ class Ticket extends CommonITILObject {
          $tab = array_merge($tab, $this->getSearchOptionsSolution());
 
          if (Session::haveRight('ticketcost', READ)) {
-            $tab = array_merge($tab, TicketCost::getSearchOptionsToAddNew());
+            //$tab = array_merge($tab, TicketCost::getSearchOptionsToAddNew());
          }
 
          $tab[] = [
