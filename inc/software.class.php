@@ -97,20 +97,20 @@ class Software extends CommonDBTM {
 
       $ong = [];
       $this->addDefaultFormTab($ong);
-      $this->addStandardTab('SoftwareVersion', $ong, $options);
-      $this->addStandardTab('SoftwareLicense', $ong, $options);
-      $this->addStandardTab('Computer_SoftwareVersion', $ong, $options);
-      $this->addStandardTab('Infocom', $ong, $options);
-      $this->addStandardTab('Contract_Item', $ong, $options);
-      $this->addStandardTab('Document_Item', $ong, $options);
-      $this->addStandardTab('KnowbaseItem_Item', $ong, $options);
+      //$this->addStandardTab('SoftwareVersion', $ong, $options);
+      //$this->addStandardTab('SoftwareLicense', $ong, $options);
+      //$this->addStandardTab('Computer_SoftwareVersion', $ong, $options);
+      //$this->addStandardTab('Infocom', $ong, $options);
+      //$this->addStandardTab('Contract_Item', $ong, $options);
+      //$this->addStandardTab('Document_Item', $ong, $options);
+      //$this->addStandardTab('KnowbaseItem_Item', $ong, $options);
       $this->addStandardTab('Ticket', $ong, $options);
       $this->addStandardTab('Item_Problem', $ong, $options);
       $this->addStandardTab('Change_Item', $ong, $options);
-      $this->addStandardTab('Link', $ong, $options);
-      $this->addStandardTab('Notepad', $ong, $options);
+      //$this->addStandardTab('Link', $ong, $options);
+      //$this->addStandardTab('Notepad', $ong, $options);
       $this->addStandardTab('Reservation', $ong, $options);
-      $this->addStandardTab('Log', $ong, $options);
+      //$this->addStandardTab('Log', $ong, $options);
       $this->addStandardTab(__CLASS__, $ong, $options);
 
       return $ong;
@@ -262,8 +262,8 @@ class Software extends CommonDBTM {
       echo "<td>";
       Html::autocompletionTextField($this, "name");
       echo "</td>";
-      echo "<td>" . __('Publisher')."</td><td>";
-      Manufacturer::dropdown(['value' => $this->fields["manufacturers_id"]]);
+      //echo "<td>" . __('Publisher')."</td><td>";
+      //Manufacturer::dropdown(['value' => $this->fields["manufacturers_id"]]);
       echo "</td></tr>\n";
 
       echo "<tr class='tab_bg_1'>";
@@ -271,8 +271,8 @@ class Software extends CommonDBTM {
       Location::dropdown(['value'  => $this->fields["locations_id"],
                                'entity' => $this->fields["entities_id"]]);
       echo "</td>";
-      echo "<td>" . __('Category') . "</td><td>";
-      SoftwareCategory::dropdown(['value' => $this->fields["softwarecategories_id"]]);
+      //echo "<td>" . __('Category') . "</td><td>";
+      //SoftwareCategory::dropdown(['value' => $this->fields["softwarecategories_id"]]);
       echo "</td></tr>\n";
 
       echo "<tr class='tab_bg_1'>";
