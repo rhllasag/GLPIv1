@@ -44,7 +44,7 @@ msgstr ""
 
 #: inc/alert.class.php:360
 msgid "You have hidden alerts valid for current date"
-msgstr ""
+msgstr "Tienes alertas ocultas"
 
 #: inc/alert.class.php:372
 msgid "General"

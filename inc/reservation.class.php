@@ -734,6 +734,7 @@ class Reservation extends CommonDBChild {
       if (empty($ID)) {
          echo "<tr class='tab_bg_2'>";
          echo "<td colspan='2' class='top center'>";
+         if(Session::haveRight("reservation", UPDATE)&&Session::haveRight("reservation", DELETE)&&Session::haveRight("reservation", READ))
          echo "<input type='submit' name='add' value=\""._sx('button', 'Add')."\" class='submit'>";
          echo "</td></tr>\n";
 

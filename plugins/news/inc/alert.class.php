@@ -453,7 +453,7 @@ class PluginNewsAlert extends CommonDBTM {
          echo "<div class='center'>";
          echo "<a href='".$CFG_GLPI['root_doc'].
                           "/plugins/news/front/hidden_alerts.php'>";
-         echo __("You have hidden alerts valid for current date", 'news');
+         echo __("Tienes alertas ocultas", 'news');
          echo "</a>";
          echo "</div>";
       }

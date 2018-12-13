@@ -1311,11 +1311,11 @@ class Html {
       $menu['config']['types']       = ['CommonDropdown', 'CommonDevice', 'Notification',
                                         'SLM', 'Config', 'Control', 'Crontask', 'Auth',
                                         'MailCollector', 'Link', 'Plugin'];
+                                        
 
       // Special items
       $menu['preference']['title']   = __('My settings');
       $menu['preference']['default'] = '/front/preference.php';
-
       return $menu;
    }
 
@@ -6017,7 +6017,7 @@ class Html {
                __s('Home')."\" class='itemP'>".__('Home')."</a>";
          echo "</li>";
       }
-
+      
       // Get object-variables and build the navigation-elements
       $i = 1;
       foreach ($menu as $part => $data) {
@@ -6072,7 +6072,10 @@ class Html {
             $i++;
          }
       }
-
+      echo "<li id='menu1'>";
+      echo "<a href='".$CFG_GLPI["root_doc"]."/front/graduaciones.php' title=\"".
+            __s('Graduaciones')."\" class='itemP'>".__('Graduaciones')."</a>";
+      echo "</li>";
       if ($full === false) {
          // Plugins
          $menu['plugins'] = [
