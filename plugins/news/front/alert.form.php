@@ -81,7 +81,7 @@ if (isset($_POST['update'])) {
 }
 
 Html::header(
-   __('Alerts', 'news'),
+   __('Alertas', 'news'),
    $_SERVER["PHP_SELF"],
    'tools',
    "PluginNewsAlert"

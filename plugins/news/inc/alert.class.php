@@ -53,7 +53,7 @@ class PluginNewsAlert extends CommonDBTM {
     * @return string Itemtype name
     */
    public static function getTypeName($nb = 0) {
-      return __('Alerts', 'news');
+      return __('Alertas', 'news');
    }
 
    /**
